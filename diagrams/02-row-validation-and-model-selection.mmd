@@ -1,0 +1,29 @@
+flowchart TD
+  row --> valid
+  valid -->|"No"| error
+  valid -->|"Yes"| six
+  six -->|"Yes"| baseline
+  six -->|"No"| pair
+  pair -->|"Yes"| pairmodel
+  pair -->|"No"| single
+  single -->|"Yes"| singlemodel
+  single -->|"No"| fallback
+  fallback --> next
+  row["Read one original row<br/>Apply confirmed mapping<br/>Recognize blanks / NA / null as missing"]:::step
+  valid["Are mapped readings valid?<br/>Numeric, nonnegative and finite<br/>Within model numeric bounds"]:::decision
+  error["Keep row with an error<br/>Also: extra cells or all inputs missing<br/>Skip its prediction; other rows continue"]:::error
+  six["All six pollutants observed?<br/>PM2.5, PM10, SO2, NO2, CO, O3<br/>Check values, not just column names"]:::decision
+  baseline["Six-pollutant baseline<br/>Use all six measured inputs<br/>No missing-input imputation needed"]:::result
+  pair["PM2.5 and PM10 observed?<br/>Dedicated pair artifact installed?<br/>Both conditions must be satisfied"]:::decision
+  pairmodel["PM2.5 + PM10 model<br/>Uses these two inputs only<br/>Warn about extra ignored pollutants"]:::result
+  single["PM2.5 observed?<br/>Dedicated single artifact installed?<br/>Both conditions must be satisfied"]:::decision
+  singlemodel["PM2.5-only model<br/>Uses PM2.5 only<br/>Warn about extra ignored pollutants"]:::result
+  fallback["Baseline imputation fallback<br/>At least one other valid input exists<br/>Fill missing inputs with training medians"]:::result
+  missing["Blank is different from invalid<br/>Missing input may change the model<br/>Bad mapped values reject the row"]:::note
+  quality["Quality-only exception<br/>No model selection or imputation<br/>Mapped bad values can still yield errors"]:::note
+  next["Collect row outcomes<br/>Predicted rows + preserved errors<br/>Continue to diagram 03"]:::step
+  classDef step fill:#eff6ff,stroke:#2563eb,color:#0f172a
+  classDef decision fill:#fff7ed,stroke:#d97706,color:#0f172a
+  classDef error fill:#fff1f2,stroke:#e11d48,color:#0f172a
+  classDef result fill:#ecfdf5,stroke:#059669,color:#0f172a
+  classDef note fill:#f1f5f9,stroke:#64748b,color:#0f172a

@@ -1,0 +1,32 @@
+flowchart TD
+  predict --> warn
+  predict -->|"Failure"| service
+  warn -->|"Review"| continue
+  warn --> batch
+  quality --> batch
+  batch -->|"If labels exist"| reference
+  batch --> explain
+  explain -->|"Yes"| shap
+  explain -->|"Continue"| exports
+  exports -->|"Full report"| json
+  exports -->|"Measurements"| csv
+  csv --> end
+  predict["Run the selected model<br/>Category + class probabilities<br/>Model identity and evaluation evidence"]:::step
+  warn["Add quality and anomaly notes<br/>Missing / ignored inputs; high values<br/>PM2.5 > PM10; Isolation Forest flag"]:::step
+  continue["Warning does not reject a row<br/>Unusual readings still get predictions<br/>Probability is not a calibrated guarantee"]:::note
+  batch["Assemble batch results<br/>Counts, paged rows and original data<br/>Completeness, errors and compatibility"]:::step
+  reference["Recognized reference labels?<br/>Yes: agreement, macro F1 and matrix<br/>No: skip reference evaluation"]:::decision
+  explain["Want a row explanation?<br/>Open a classified row in Classify<br/>Run classification to calculate SHAP"]:::decision
+  shap["Single-row explanation<br/>SHAP factors for the selected model<br/>Batch itself omits SHAP for speed"]:::result
+  quality["Quality-only report joins here<br/>No categories, probabilities or SHAP<br/>Profiles, original rows and errors remain"]:::result
+  exports["Export results<br/>Choose full report or measurements<br/>Export does not retrain the model"]:::decision
+  json["Complete report: JSON<br/>Originals, errors, quality, configuration<br/>Predictions and reference metrics if any"]:::result
+  csv["Converted measurements: CSV<br/>Classification mode only; canonical units<br/>Missing stays blank; errors are retained"]:::result
+  history["Optional single-row history<br/>Single classification uses local history<br/>Batch is not a persistent dataset archive"]:::note
+  service["Backend / model failure<br/>Show request error; retry after fixing<br/>No simulated prediction fallback"]:::error
+  end["End: inspect or export evidence<br/>No online learning or regional adaptation<br/>No automatic aggregation or forecasting"]:::note
+  classDef step fill:#eff6ff,stroke:#2563eb,color:#0f172a
+  classDef decision fill:#fff7ed,stroke:#d97706,color:#0f172a
+  classDef error fill:#fff1f2,stroke:#e11d48,color:#0f172a
+  classDef result fill:#ecfdf5,stroke:#059669,color:#0f172a
+  classDef note fill:#f1f5f9,stroke:#64748b,color:#0f172a

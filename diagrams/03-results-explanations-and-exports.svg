@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1230" viewBox="0 0 1240 1230" role="img" aria-label="03 / Results, explanations and exports">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#64748b" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif}.title{font-size:27px;font-weight:700;fill:#0f172a}.sub{font-size:15px;fill:#475569}.node{font-size:17px;font-weight:650;fill:#0f172a}.detail{font-size:14px;fill:#334155}.edge{font-size:13px;font-weight:650;fill:#475569;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}</style>
+<text x="40" y="44" class="title">03 / Results, explanations and exports</text>
+<text x="40" y="74" class="sub">Every selected-model route in diagram 02 enters prediction here. Invalid rows remain in the report.</text>
+<path d="M610,204 C610,237.0 610,237.0 610,270" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M460,157 C400.0,157 400.0,157 340,157" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375.0" y="147.0" class="edge">Failure</text>
+<path d="M460,317 C400.0,317 400.0,317 340,317" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375.0" y="307.0" class="edge">Review</text>
+<path d="M610,364 C610,397.0 610,397.0 610,430" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M340,477 C400.0,477 400.0,477 460,477" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M760,477 C830.0,477 830.0,477 900,477" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="467.0" class="edge">If labels exist</text>
+<path d="M610,524 C610,557.0 610,557.0 610,590" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M760,637 C830.0,637 830.0,637 900,637" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="627.0" class="edge">Yes</text>
+<path d="M610,684 C610,717.0 610,717.0 610,750" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="712.0" class="edge">Continue</text>
+<path d="M460,797 C400.0,797 400.0,957 340,957" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375.0" y="867.0" class="edge">Full report</text>
+<path d="M610,844 C610,877.0 610,877.0 610,910" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="872.0" class="edge">Measurements</text>
+<path d="M610,1004 C610,1037.0 610,1037.0 610,1070" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="460" y="110" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="138" class="node">Run the selected model</text>
+<text x="476" y="161" class="detail">Category + class probabilities</text>
+<text x="476" y="180" class="detail">Model identity and evaluation evidence</text>
+<rect x="460" y="270" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="298" class="node">Add quality and anomaly notes</text>
+<text x="476" y="321" class="detail">Missing / ignored inputs; high values</text>
+<text x="476" y="340" class="detail">PM2.5 &gt; PM10; Isolation Forest flag</text>
+<rect x="40" y="270" width="300" height="94" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="56" y="298" class="node">Warning does not reject a row</text>
+<text x="56" y="321" class="detail">Unusual readings still get predictions</text>
+<text x="56" y="340" class="detail">Probability is not a calibrated guarantee</text>
+<rect x="460" y="430" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="458" class="node">Assemble batch results</text>
+<text x="476" y="481" class="detail">Counts, paged rows and original data</text>
+<text x="476" y="500" class="detail">Completeness, errors and compatibility</text>
+<rect x="900" y="430" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="916" y="458" class="node">Recognized reference labels?</text>
+<text x="916" y="481" class="detail">Yes: agreement, macro F1 and matrix</text>
+<text x="916" y="500" class="detail">No: skip reference evaluation</text>
+<rect x="460" y="590" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="618" class="node">Want a row explanation?</text>
+<text x="476" y="641" class="detail">Open a classified row in Classify</text>
+<text x="476" y="660" class="detail">Run classification to calculate SHAP</text>
+<rect x="900" y="590" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="916" y="618" class="node">Single-row explanation</text>
+<text x="916" y="641" class="detail">SHAP factors for the selected model</text>
+<text x="916" y="660" class="detail">Batch itself omits SHAP for speed</text>
+<rect x="40" y="430" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="56" y="458" class="node">Quality-only report joins here</text>
+<text x="56" y="481" class="detail">No categories, probabilities or SHAP</text>
+<text x="56" y="500" class="detail">Profiles, original rows and errors remain</text>
+<rect x="460" y="750" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="778" class="node">Export results</text>
+<text x="476" y="801" class="detail">Choose full report or measurements</text>
+<text x="476" y="820" class="detail">Export does not retrain the model</text>
+<rect x="40" y="910" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="56" y="938" class="node">Complete report: JSON</text>
+<text x="56" y="961" class="detail">Originals, errors, quality, configuration</text>
+<text x="56" y="980" class="detail">Predictions and reference metrics if any</text>
+<rect x="460" y="910" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="476" y="938" class="node">Converted measurements: CSV</text>
+<text x="476" y="961" class="detail">Classification mode only; canonical units</text>
+<text x="476" y="980" class="detail">Missing stays blank; errors are retained</text>
+<rect x="900" y="910" width="300" height="94" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="916" y="938" class="node">Optional single-row history</text>
+<text x="916" y="961" class="detail">Single classification uses local history</text>
+<text x="916" y="980" class="detail">Batch is not a persistent dataset archive</text>
+<rect x="40" y="110" width="300" height="94" rx="14" fill="#fff1f2" stroke="#e11d48" stroke-width="1.6"/>
+<text x="56" y="138" class="node">Backend / model failure</text>
+<text x="56" y="161" class="detail">Show request error; retry after fixing</text>
+<text x="56" y="180" class="detail">No simulated prediction fallback</text>
+<rect x="460" y="1070" width="300" height="94" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="476" y="1098" class="node">End: inspect or export evidence</text>
+<text x="476" y="1121" class="detail">No online learning or regional adaptation</text>
+<text x="476" y="1140" class="detail">No automatic aggregation or forecasting</text>
+<text x="40" y="1208" class="sub">Atmosight 1.1.1 • Current implemented workflow • Blue: process · Amber: decision · Red: error · Green: output</text></svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1230" viewBox="0 0 1240 1230" role="img" aria-label="01 / CSV upload and compatibility">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#64748b" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif}.title{font-size:27px;font-weight:700;fill:#0f172a}.sub{font-size:15px;fill:#475569}.node{font-size:17px;font-weight:650;fill:#0f172a}.detail{font-size:14px;fill:#334155}.edge{font-size:13px;font-weight:650;fill:#475569;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}</style>
+<text x="40" y="44" class="title">01 / CSV upload and compatibility</text>
+<text x="40" y="74" class="sub">Start here. File and configuration errors stop the request; quality findings are retained.</text>
+<path d="M610,204 C610,237.0 610,237.0 610,270" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M760,317 C830.0,317 830.0,317 900,317" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="307.0" class="edge">No</text>
+<path d="M610,364 C610,397.0 610,397.0 610,430" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="392.0" class="edge">Yes</text>
+<path d="M460,477 C400.0,477 400.0,477 340,477" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375.0" y="467.0" class="edge">If available</text>
+<path d="M610,524 C610,557.0 610,557.0 610,590" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M760,637 C830.0,637 830.0,637 900,637" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="627.0" class="edge">Invalid</text>
+<path d="M610,684 C610,717.0 610,717.0 610,750" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="712.0" class="edge">Valid</text>
+<path d="M460,797 C400.0,797 400.0,797 340,797" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375.0" y="787.0" class="edge">Yes</text>
+<path d="M610,844 C610,877.0 610,877.0 610,910" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="872.0" class="edge">Classification</text>
+<path d="M760,957 C830.0,957 830.0,957 900,957" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="947.0" class="edge">No</text>
+<path d="M610,1004 C610,1037.0 610,1037.0 610,1070" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="1032.0" class="edge">Yes</text>
+<rect x="460" y="110" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="138" class="node">Upload CSV</text>
+<text x="476" y="161" class="detail">UTF-8 / optional BOM</text>
+<text x="476" y="180" class="detail">Up to 50 MB and 250,000 data rows</text>
+<rect x="460" y="270" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="298" class="node">Readable, supported structure?</text>
+<text x="476" y="321" class="detail">Nonempty, unique headers</text>
+<text x="476" y="340" class="detail">At least one observation</text>
+<rect x="900" y="270" width="300" height="94" rx="14" fill="#fff1f2" stroke="#e11d48" stroke-width="1.6"/>
+<text x="916" y="298" class="node">File rejected</text>
+<text x="916" y="321" class="detail">Encoding / parser / size / row limit</text>
+<text x="916" y="340" class="detail">Fix the file, then upload again</text>
+<rect x="460" y="430" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="458" class="node">Preview and profile all columns</text>
+<text x="476" y="481" class="detail">First 5 rows; missing/numeric values</text>
+<text x="476" y="500" class="detail">Ranges, distributions and duplicates</text>
+<rect x="40" y="430" width="300" height="94" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="56" y="458" class="node">Dates / stations recognized?</text>
+<text x="56" y="481" class="detail">Yes: date quality and station gaps</text>
+<text x="56" y="500" class="detail">No: those diagnostics are omitted</text>
+<rect x="460" y="590" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="618" class="node">Confirm mapping and units</text>
+<text x="476" y="641" class="detail">Known aliases suggested</text>
+<text x="476" y="660" class="detail">Unknown / ambiguous: map manually</text>
+<rect x="900" y="590" width="300" height="94" rx="14" fill="#fff1f2" stroke="#e11d48" stroke-width="1.6"/>
+<text x="916" y="618" class="node">Invalid mapping blocks analysis</text>
+<text x="916" y="641" class="detail">Duplicate source / missing column</text>
+<text x="916" y="660" class="detail">AQI, labels or CO2 used as input</text>
+<rect x="460" y="750" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="778" class="node">Choose analysis mode</text>
+<text x="476" y="801" class="detail">Explicit quality-only, or no inputs?</text>
+<text x="476" y="820" class="detail">Otherwise request classification</text>
+<rect x="40" y="750" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="56" y="778" class="node">Quality-only route</text>
+<text x="56" y="801" class="detail">Profiles + originals + row errors</text>
+<text x="56" y="820" class="detail">No air-quality predictions</text>
+<rect x="460" y="910" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="938" class="node">Daily data + supported units?</text>
+<text x="476" y="961" class="detail">Confirm daily observations</text>
+<text x="476" y="980" class="detail">ug/m3 or mg/m3 mass concentrations</text>
+<rect x="900" y="910" width="300" height="94" rx="14" fill="#fff1f2" stroke="#e11d48" stroke-width="1.6"/>
+<text x="916" y="938" class="node">Classification blocked</text>
+<text x="916" y="961" class="detail">Hourly / unknown interval or ppm</text>
+<text x="916" y="980" class="detail">Correct config or choose quality-only</text>
+<rect x="460" y="1070" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="476" y="1098" class="node">Convert and validate each row</text>
+<text x="476" y="1121" class="detail">CO → mg/m3; other pollutants → ug/m3</text>
+<text x="476" y="1140" class="detail">Continue to diagram 02</text>
+<text x="40" y="1208" class="sub">Atmosight 1.1.1 • Current implemented workflow • Blue: process · Amber: decision · Red: error · Green: output</text></svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1230" viewBox="0 0 1240 1230" role="img" aria-label="02 / Row validation and model selection">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#64748b" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Segoe UI,Arial,sans-serif}.title{font-size:27px;font-weight:700;fill:#0f172a}.sub{font-size:15px;fill:#475569}.node{font-size:17px;font-weight:650;fill:#0f172a}.detail{font-size:14px;fill:#334155}.edge{font-size:13px;font-weight:650;fill:#475569;paint-order:stroke;stroke:white;stroke-width:5px;stroke-linejoin:round}</style>
+<text x="40" y="44" class="title">02 / Row validation and model selection</text>
+<text x="40" y="74" class="sub">Each row follows its own route. A single CSV can use multiple models and contain invalid rows.</text>
+<path d="M610,204 C610,237.0 610,237.0 610,270" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M760,317 C830.0,317 830.0,317 900,317" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="307.0" class="edge">No</text>
+<path d="M610,364 C610,397.0 610,397.0 610,430" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="392.0" class="edge">Yes</text>
+<path d="M760,477 C830.0,477 830.0,477 900,477" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="467.0" class="edge">Yes</text>
+<path d="M610,524 C610,557.0 610,557.0 610,590" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="552.0" class="edge">No</text>
+<path d="M760,637 C830.0,637 830.0,637 900,637" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="627.0" class="edge">Yes</text>
+<path d="M610,684 C610,717.0 610,717.0 610,750" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="712.0" class="edge">No</text>
+<path d="M760,797 C830.0,797 830.0,797 900,797" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815.0" y="787.0" class="edge">Yes</text>
+<path d="M610,844 C610,877.0 610,877.0 610,910" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="620.0" y="872.0" class="edge">No</text>
+<path d="M610,1004 C610,1037.0 610,1037.0 610,1070" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="460" y="110" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="138" class="node">Read one original row</text>
+<text x="476" y="161" class="detail">Apply confirmed mapping</text>
+<text x="476" y="180" class="detail">Recognize blanks / NA / null as missing</text>
+<rect x="460" y="270" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="298" class="node">Are mapped readings valid?</text>
+<text x="476" y="321" class="detail">Numeric, nonnegative and finite</text>
+<text x="476" y="340" class="detail">Within model numeric bounds</text>
+<rect x="900" y="270" width="300" height="94" rx="14" fill="#fff1f2" stroke="#e11d48" stroke-width="1.6"/>
+<text x="916" y="298" class="node">Keep row with an error</text>
+<text x="916" y="321" class="detail">Also: extra cells or all inputs missing</text>
+<text x="916" y="340" class="detail">Skip its prediction; other rows continue</text>
+<rect x="460" y="430" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="458" class="node">All six pollutants observed?</text>
+<text x="476" y="481" class="detail">PM2.5, PM10, SO2, NO2, CO, O3</text>
+<text x="476" y="500" class="detail">Check values, not just column names</text>
+<rect x="900" y="430" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="916" y="458" class="node">Six-pollutant baseline</text>
+<text x="916" y="481" class="detail">Use all six measured inputs</text>
+<text x="916" y="500" class="detail">No missing-input imputation needed</text>
+<rect x="460" y="590" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="618" class="node">PM2.5 and PM10 observed?</text>
+<text x="476" y="641" class="detail">Dedicated pair artifact installed?</text>
+<text x="476" y="660" class="detail">Both conditions must be satisfied</text>
+<rect x="900" y="590" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="916" y="618" class="node">PM2.5 + PM10 model</text>
+<text x="916" y="641" class="detail">Uses these two inputs only</text>
+<text x="916" y="660" class="detail">Warn about extra ignored pollutants</text>
+<rect x="460" y="750" width="300" height="94" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="1.6"/>
+<text x="476" y="778" class="node">PM2.5 observed?</text>
+<text x="476" y="801" class="detail">Dedicated single artifact installed?</text>
+<text x="476" y="820" class="detail">Both conditions must be satisfied</text>
+<rect x="900" y="750" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="916" y="778" class="node">PM2.5-only model</text>
+<text x="916" y="801" class="detail">Uses PM2.5 only</text>
+<text x="916" y="820" class="detail">Warn about extra ignored pollutants</text>
+<rect x="460" y="910" width="300" height="94" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="476" y="938" class="node">Baseline imputation fallback</text>
+<text x="476" y="961" class="detail">At least one other valid input exists</text>
+<text x="476" y="980" class="detail">Fill missing inputs with training medians</text>
+<rect x="40" y="590" width="300" height="94" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="56" y="618" class="node">Blank is different from invalid</text>
+<text x="56" y="641" class="detail">Missing input may change the model</text>
+<text x="56" y="660" class="detail">Bad mapped values reject the row</text>
+<rect x="40" y="910" width="300" height="94" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="1.6"/>
+<text x="56" y="938" class="node">Quality-only exception</text>
+<text x="56" y="961" class="detail">No model selection or imputation</text>
+<text x="56" y="980" class="detail">Mapped bad values can still yield errors</text>
+<rect x="460" y="1070" width="300" height="94" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="476" y="1098" class="node">Collect row outcomes</text>
+<text x="476" y="1121" class="detail">Predicted rows + preserved errors</text>
+<text x="476" y="1140" class="detail">Continue to diagram 03</text>
+<text x="40" y="1208" class="sub">Atmosight 1.1.1 • Current implemented workflow • Blue: process · Amber: decision · Red: error · Green: output</text></svg>

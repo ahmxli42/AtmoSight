@@ -1,0 +1,29 @@
+flowchart TD
+  upload --> file
+  file -->|"No"| reject
+  file -->|"Yes"| inspect
+  inspect -->|"If available"| dates
+  inspect --> map
+  map -->|"Invalid"| badmap
+  map -->|"Valid"| mode
+  mode -->|"Yes"| quality
+  mode -->|"Classification"| guards
+  guards -->|"No"| blocked
+  guards -->|"Yes"| next
+  upload["Upload CSV<br/>UTF-8 / optional BOM<br/>Up to 50 MB and 250,000 data rows"]:::step
+  file["Readable, supported structure?<br/>Nonempty, unique headers<br/>At least one observation"]:::decision
+  reject["File rejected<br/>Encoding / parser / size / row limit<br/>Fix the file, then upload again"]:::error
+  inspect["Preview and profile all columns<br/>First 5 rows; missing/numeric values<br/>Ranges, distributions and duplicates"]:::step
+  dates["Dates / stations recognized?<br/>Yes: date quality and station gaps<br/>No: those diagnostics are omitted"]:::note
+  map["Confirm mapping and units<br/>Known aliases suggested<br/>Unknown / ambiguous: map manually"]:::step
+  badmap["Invalid mapping blocks analysis<br/>Duplicate source / missing column<br/>AQI, labels or CO2 used as input"]:::error
+  mode["Choose analysis mode<br/>Explicit quality-only, or no inputs?<br/>Otherwise request classification"]:::decision
+  quality["Quality-only route<br/>Profiles + originals + row errors<br/>No air-quality predictions"]:::result
+  guards["Daily data + supported units?<br/>Confirm daily observations<br/>ug/m3 or mg/m3 mass concentrations"]:::decision
+  blocked["Classification blocked<br/>Hourly / unknown interval or ppm<br/>Correct config or choose quality-only"]:::error
+  next["Convert and validate each row<br/>CO → mg/m3; other pollutants → ug/m3<br/>Continue to diagram 02"]:::result
+  classDef step fill:#eff6ff,stroke:#2563eb,color:#0f172a
+  classDef decision fill:#fff7ed,stroke:#d97706,color:#0f172a
+  classDef error fill:#fff1f2,stroke:#e11d48,color:#0f172a
+  classDef result fill:#ecfdf5,stroke:#059669,color:#0f172a
+  classDef note fill:#f1f5f9,stroke:#64748b,color:#0f172a
