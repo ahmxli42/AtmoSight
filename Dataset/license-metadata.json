@@ -1,0 +1,162 @@
+[
+  {
+    "ref": "rohanrao/air-quality-data-in-india",
+    "title": "Air Quality Data in India (2015 - 2020)",
+    "licenseName": "CC0: Public Domain",
+    "currentVersionNumber": 12,
+    "url": "https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india",
+    "lastUpdated": "2020-07-28T12:33:10.347Z"
+  },
+  {
+    "ref": "shrutibhargava94/india-air-quality-data",
+    "title": "India Air Quality Data",
+    "licenseName": "Other (specified in description)",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data",
+    "lastUpdated": "2017-07-22T05:04:57.59Z"
+  },
+  {
+    "ref": "fedesoriano/air-quality-data-in-india",
+    "title": "Air Quality Data in India (2017 - 2022)",
+    "licenseName": "CC0: Public Domain",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/fedesoriano/air-quality-data-in-india",
+    "lastUpdated": "2022-06-04T18:04:03.957Z"
+  },
+  {
+    "ref": "abhisheksjha/time-series-air-quality-data-of-india-2010-2023",
+    "title": "Time Series Air Quality Data of India (2010-2023)",
+    "licenseName": "CC BY-NC-SA 4.0",
+    "currentVersionNumber": 2,
+    "url": "https://www.kaggle.com/datasets/abhisheksjha/time-series-air-quality-data-of-india-2010-2023",
+    "lastUpdated": "2023-06-09T12:58:38.08Z"
+  },
+  {
+    "ref": "deepaksirohiwal/delhi-air-quality",
+    "title": "Air quality data of Delhi, India",
+    "licenseName": "CC BY-NC-SA 4.0",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/deepaksirohiwal/delhi-air-quality",
+    "lastUpdated": "2023-01-24T10:22:49.587Z"
+  },
+  {
+    "ref": "shivan118/air-quality",
+    "title": "Air Quality Data in India",
+    "licenseName": "CC0: Public Domain",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/shivan118/air-quality",
+    "lastUpdated": "2020-08-13T13:16:20.633Z"
+  },
+  {
+    "ref": "bhadramohit/india-air-quality-index2024-dataset",
+    "title": "India Air Quality Index(2024) Dataset",
+    "licenseName": "Community Data License Agreement - Sharing - Version 1.0",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/bhadramohit/india-air-quality-index2024-dataset",
+    "lastUpdated": "2024-11-04T14:18:23.19Z"
+  },
+  {
+    "ref": "neomatrix369/air-quality-data-in-india-extended",
+    "title": "Air Quality Data in India Extended",
+    "licenseName": "CC0: Public Domain",
+    "currentVersionNumber": 7,
+    "url": "https://www.kaggle.com/datasets/neomatrix369/air-quality-data-in-india-extended",
+    "lastUpdated": "2020-11-08T22:18:23.223Z"
+  },
+  {
+    "ref": "tushardobal/india-city-air-quality-index-dataset-20152023",
+    "title": "India City Air Quality Index Dataset (2015–2023)",
+    "licenseName": "CC0: Public Domain",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/tushardobal/india-city-air-quality-index-dataset-20152023",
+    "lastUpdated": "2026-02-11T11:12:36.01Z"
+  },
+  {
+    "ref": "saikiranudayana/india-air-quality-index-aqi-dataset-20232025",
+    "title": "India Air Quality Index (AQI) Dataset [2023–2025]",
+    "licenseName": "MIT",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/saikiranudayana/india-air-quality-index-aqi-dataset-20232025",
+    "lastUpdated": "2025-08-06T05:44:58.017Z"
+  },
+  {
+    "ref": "yogeshm01/india-air-quality-dataset-20252026",
+    "title": "India Air Quality Dataset (2025–2026)",
+    "licenseName": "Other (specified in description)",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/yogeshm01/india-air-quality-dataset-20252026",
+    "lastUpdated": "2026-07-01T18:54:04.95Z"
+  },
+  {
+    "ref": "nelgiriyewithana/indian-weather-repository-daily-snapshot",
+    "title": "Indian Weather Repository ( Daily Updating )",
+    "licenseName": "Other (specified in description)",
+    "currentVersionNumber": 232,
+    "url": "https://www.kaggle.com/datasets/nelgiriyewithana/indian-weather-repository-daily-snapshot",
+    "lastUpdated": "2024-06-16T17:18:36.7Z"
+  },
+  {
+    "ref": "adarshrouniyar/air-pollution-image-dataset-from-india-and-nepal",
+    "title": "Air Pollution Image Dataset from India and Nepal",
+    "licenseName": "Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)",
+    "currentVersionNumber": 10,
+    "url": "https://www.kaggle.com/datasets/adarshrouniyar/air-pollution-image-dataset-from-india-and-nepal",
+    "lastUpdated": "2024-05-07T20:11:19.617Z"
+  },
+  {
+    "ref": "amandeepvasistha/air-quality-data",
+    "title": "Air Quality Data - India",
+    "licenseName": "CC0: Public Domain",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/amandeepvasistha/air-quality-data",
+    "lastUpdated": "2024-03-26T07:37:18.787Z"
+  },
+  {
+    "ref": "chitwanmanchanda/indias-air-quality-index",
+    "title": "India's Air Quality Index",
+    "licenseName": "Unknown",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/chitwanmanchanda/indias-air-quality-index",
+    "lastUpdated": "2021-10-21T09:34:21.387Z"
+  },
+  {
+    "ref": "arnavtripathi01/air-quality-and-metrological-data-in-india-2024",
+    "title": "Air Quality and Metrological Data in India (2024)",
+    "licenseName": "Apache 2.0",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/arnavtripathi01/air-quality-and-metrological-data-in-india-2024",
+    "lastUpdated": "2025-07-13T22:14:02.22Z"
+  },
+  {
+    "ref": "riteshswami08/india-multi-city-air-quality-dataset-100k-rows",
+    "title": "India Multi-City Air Quality Dataset (100K+ Rows)",
+    "licenseName": "CC BY-SA 4.0",
+    "currentVersionNumber": 3,
+    "url": "https://www.kaggle.com/datasets/riteshswami08/india-multi-city-air-quality-dataset-100k-rows",
+    "lastUpdated": "2025-12-06T15:59:26.033Z"
+  },
+  {
+    "ref": "ankushnarwade/indian-climate-dataset-20242025",
+    "title": "Indian Climate Dataset (2024–2025)",
+    "licenseName": "Attribution 4.0 International (CC BY 4.0)",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/ankushnarwade/indian-climate-dataset-20242025",
+    "lastUpdated": "2025-12-14T09:44:06.193Z"
+  },
+  {
+    "ref": "aatifahmad123/weather-and-air-quality-of-indian-cities",
+    "title": "Weather and Air Quality of Indian Cities",
+    "licenseName": "MIT",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/aatifahmad123/weather-and-air-quality-of-indian-cities",
+    "lastUpdated": "2025-12-14T12:17:28.007Z"
+  },
+  {
+    "ref": "sohails07/delhi-weather-and-aqi-dataset-2025",
+    "title": "Delhi Weather & AQI Dataset (2025)",
+    "licenseName": "MIT",
+    "currentVersionNumber": 1,
+    "url": "https://www.kaggle.com/datasets/sohails07/delhi-weather-and-aqi-dataset-2025",
+    "lastUpdated": "2026-01-03T00:32:39.6Z"
+  }
+]

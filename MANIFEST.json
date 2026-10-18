@@ -1,0 +1,2288 @@
+{
+  "inventory": [
+    {
+      "path": ".gitattributes",
+      "bytes": 210,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4934bf108ccf09b522728ae12c3fa94c228196b25f291926f25430fef9dd7d64"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 576,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "93a0041b443dbbb69cd1836e7717977d637f3fc6da596b052c823b4d691c7b7a"
+    },
+    {
+      "path": "ATMOSIGHT_COMPLETE_CHAT_HANDOFF.docx",
+      "bytes": 59244,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4a66342f6b4d4fd3792ffd3db4604855fc75473885c3b81b58f945b6dfa7557d"
+    },
+    {
+      "path": "Atmosight_Report_With_Diagrams.docx",
+      "bytes": 1728265,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "eeae07c8ed7330ecbb81cb4f594b1ad4b3617578e2bbed4ad72116d04c1bd99c"
+    },
+    {
+      "path": "clean_data.py",
+      "bytes": 30209,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "9cf79adfe8582ae5ebb70b0cafade6c998598ea6bcfed636b9e53c1e451b20fb"
+    },
+    {
+      "path": "datacheck.py",
+      "bytes": 522,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "17103c08dabb6f9cb9e77510dd4651b6e0e9131c7dbdb401fe50df978f67905b"
+    },
+    {
+      "path": "Dataset.zip",
+      "bytes": 76469579,
+      "include": false,
+      "reason": "over 50 MB",
+      "sha256": "4ce4e048e6698b277b6d8f14d830c1f7434769416302dcdbab4f0826ee750ff9"
+    },
+    {
+      "path": "feature_names.joblib",
+      "bytes": 53,
+      "include": false,
+      "reason": "environment, trained binary, cache, log or executable",
+      "sha256": "9c78daa93db637776cc87c652ae719328083d8bd507f579757f3f3895bc0e3de"
+    },
+    {
+      "path": "package.json",
+      "bytes": 236,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "5e014dbc603321e6edda4a4e4f7bd7f87a46e4dcb57ea2b8926954eb8059a7ac"
+    },
+    {
+      "path": "preprocessing_report.md",
+      "bytes": 9700,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "c96902928e4342d6073814f496b60172bc8c4d2e04b4ad332917be97ecab816f"
+    },
+    {
+      "path": "preprocessing_report.txt",
+      "bytes": 9700,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "c96902928e4342d6073814f496b60172bc8c4d2e04b4ad332917be97ecab816f"
+    },
+    {
+      "path": "preprocessing_script.md",
+      "bytes": 8036,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "1712179805dd5eaa045e112a6a532731531bd52d84b3507e180d4f7620a0533f"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 18855,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "5233c86bc76d75e8777224b42a3dff4d12b326a2091ae3d3c9a5a0f8fadce3c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8003,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "c8293d0ca8ddb3eeefff0acc2e4dc006d5657995eed510a58d6ab584f9ef8cb4"
+    },
+    {
+      "path": "training_report.md",
+      "bytes": 0,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "training_report.txt",
+      "bytes": 0,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "training_script.md",
+      "bytes": 0,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "train_model.py",
+      "bytes": 0,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app.py",
+      "bytes": 11677,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "9dd014baf3cdd5955b844c40bdc04d1a7f7b3ebe921f7a05e987daf5678a044d"
+    },
+    {
+      "path": "backend/atmosight-backend.spec",
+      "bytes": 1279,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "48da1e5c35589a1908f44cb8fa5e645cbba8dcfa59811fc0fc5254c51161ae96"
+    },
+    {
+      "path": "backend/evaluate_station_transfer.py",
+      "bytes": 2452,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "21a055f75a3044231d6efdd4763b5405669b3cda6d0a0a7dca58c59ae0174c90"
+    },
+    {
+      "path": "backend/import_analysis.py",
+      "bytes": 10321,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "8de3c710bded165245c3d3d0382d24176bc3da5c57c50c5e6011bce252297d7f"
+    },
+    {
+      "path": "backend/limits.py",
+      "bytes": 159,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "7c42008d2df823516d8ab167b677a270f7b5f4c226da190ca9b32f6781c85b27"
+    },
+    {
+      "path": "backend/noise_evaluation.py",
+      "bytes": 1411,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "3c93801911e8740164d84ff8575278646094ec0d3a171b4b34cbd2969ba33ed5"
+    },
+    {
+      "path": "backend/requirements-lock.txt",
+      "bytes": 745,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "1c00f500fc7a633b45fa49f4c10e50a769212ba4fabf5d2d24a51728a3087d55"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 181,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "a0aafc679b17c3a2aff01049189fcbda591d4fbf098470c86b5a749bd2ff84d0"
+    },
+    {
+      "path": "backend/test_adaptability.py",
+      "bytes": 4403,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "8cc35d337feea5267fb91c893ab873ec285b8e0bf0fe7d6427b3593e14310c74"
+    },
+    {
+      "path": "backend/test_api.py",
+      "bytes": 3370,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "a3aa2360d5f7935de1abb9a7a5df284b025f28ca3401ae14f00499488fca3695"
+    },
+    {
+      "path": "backend/test_frozen_adaptability.py",
+      "bytes": 1890,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "ab1cc7900c777070c84584107a74cfb9e722d9961a7491d9a9fed95da24e67b5"
+    },
+    {
+      "path": "backend/test_large_imports.py",
+      "bytes": 2742,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "63aef3f9a0747e8c586b63d4dfc5feba75305932959150b518ae36446aad5eb3"
+    },
+    {
+      "path": "backend/train.py",
+      "bytes": 4143,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "1590a59d6f9ddb541ca4cde4740b25dae97e25d05355e24142b3dcad6fda1ea3"
+    },
+    {
+      "path": "backend/train_sensor_models.py",
+      "bytes": 4565,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "cf0280ad0c4011d04efee01b59015f26b4647d94f845b831f40b2f576d34ff07"
+    },
+    {
+      "path": "backend/__init__.py",
+      "bytes": 0,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/artifacts/baseline.joblib",
+      "bytes": 117116282,
+      "include": false,
+      "reason": "over 50 MB",
+      "sha256": "5cab1847853ab691a27133a049092c1149a70fe5dd52ccec79c954c9a188fbbb"
+    },
+    {
+      "path": "backend/artifacts/baseline_station_evaluation.json",
+      "bytes": 3864,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "9a10839a284556835d974947348975fb713b62f6c979bfb752770ade99f3d556"
+    },
+    {
+      "path": "backend/artifacts/metadata.json",
+      "bytes": 4147,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "75cfc89c1dd2a618c1e3061af96148a4570c9cdca77fcb6c2bcfb3ff507a9596"
+    },
+    {
+      "path": "backend/artifacts/pm25.joblib",
+      "bytes": 21059849,
+      "include": false,
+      "reason": "environment, trained binary, cache, log or executable",
+      "sha256": "d3b570c67120d4cebab255ad3178ed194546da481a8d5def804a1f5e33466a68"
+    },
+    {
+      "path": "backend/artifacts/pm25.json",
+      "bytes": 5027,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "edae01f4bea5283f2caf0ae362f5da6d89916eeef3202683b768fcd221182d0e"
+    },
+    {
+      "path": "backend/artifacts/pm_pair.joblib",
+      "bytes": 19670051,
+      "include": false,
+      "reason": "environment, trained binary, cache, log or executable",
+      "sha256": "fe43b6676fead8169e3c2d3cdc07cc726d9e81a8bc8191d11e588a3b143e0847"
+    },
+    {
+      "path": "backend/artifacts/pm_pair.json",
+      "bytes": 5068,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "8b35ed34a9fca4772da3b17a369ba2d9620c6fbbffa562176c1e0e7e1d540758"
+    },
+    {
+      "path": "backend/artifacts/sensor_evaluation.json",
+      "bytes": 11140,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "36cdafc5c5d8c8d97c46bf639b621e4784d7fb2862f292413292dec0f23337f2"
+    },
+    {
+      "path": "backend/fixtures/flexible-import.csv",
+      "bytes": 166,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "609da012cb98a603fdfa84ad0dfde2f9505754c77014f3490695f8acc80ae730"
+    },
+    {
+      "path": "backend/fixtures/general-quality.csv",
+      "bytes": 101,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "321667e6c2818935e14de409206d8487c867a928dfe8152bae007ac62c25eceb"
+    },
+    {
+      "path": "backend/fixtures/pagination-check.csv",
+      "bytes": 2259,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "f49ecaeb5b91d7e1645822025df4da1671ded0f998d1b8ac7a45061d63e22220"
+    },
+    {
+      "path": "backend/fixtures/quality-check.csv",
+      "bytes": 217,
+      "include": true,
+      "reason": "backend implementation, existing tests/fixtures, or small evaluation evidence",
+      "sha256": "3a31a540c75c45718fb0272f84e74ad6c59bcd12dcc98a1f5702454511936670"
+    },
+    {
+      "path": "Dataset/city_day.csv",
+      "bytes": 2603588,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "3a0bd4da4f07b49e22485d558a71896a02e9da200af613c638d3758c6bc6c9af"
+    },
+    {
+      "path": "Dataset/city_hour.csv",
+      "bytes": 65648581,
+      "include": false,
+      "reason": "over 50 MB",
+      "sha256": "fae474062ec6b10af7c5b2ac4e32f5c240a0ef80835ee3a50332fec06e2190a4"
+    },
+    {
+      "path": "Dataset/datacheck.py",
+      "bytes": 955,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "c0690bbde00057f9f8fcb461edf1c67475de9f27bc6c276d8d5afacb9c59eab5"
+    },
+    {
+      "path": "Dataset/inspect_data.py",
+      "bytes": 1569,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "a26e2bdfe4b856109dec9154b632eb11522c5e940dff2c28e6d9b257940fb53f"
+    },
+    {
+      "path": "Dataset/stations.csv",
+      "bytes": 14467,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "ce2b7081c3e3c89145613eb724d7d2149ef79c6e16f36bb8a835747a673ed410"
+    },
+    {
+      "path": "Dataset/station_day.csv",
+      "bytes": 8742141,
+      "include": true,
+      "reason": "verified CC0 metadata and exact expected hash",
+      "sha256": "67c308463abab12507f0c9892549fedfc099221025cbcb3e308be170b5a6a0ad"
+    },
+    {
+      "path": "Dataset/station_day_cleaned.csv",
+      "bytes": 9725981,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4c01346af0e9f0dc22ba138d25ec86d19194dcb2df465c6b52b0e276caedd16a"
+    },
+    {
+      "path": "Design/.env.example",
+      "bytes": 98,
+      "include": false,
+      "reason": "environment, trained binary, cache, log or executable",
+      "sha256": "e7f9204944fa7866759f821f800deed3dc4389423965645d08532ed318f9411b"
+    },
+    {
+      "path": "Design/index.html",
+      "bytes": 411,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "443d04625a12e4d3d522f2f266f5d2914dd69a43c07c5700555ea4f66eed9af4"
+    },
+    {
+      "path": "Design/package-lock.json",
+      "bytes": 115221,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "26b6ae5404383997f5cba8939ed8455c6a8f2efb5f1e8bb1d68157d41416a961"
+    },
+    {
+      "path": "Design/package.json",
+      "bytes": 866,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "4987d95e870320ed2017e5e4cfef4891b0c2f6aa4691183f00715a547e20d01d"
+    },
+    {
+      "path": "Design/postcss.config.js",
+      "bytes": 97,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "3bae3b38a671927bd3e5c1dba32c1cac708d1d9d4b12fdbccc4b6b4184611273"
+    },
+    {
+      "path": "Design/tailwind.config.js",
+      "bytes": 5268,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "58c3245380c239d05f2334fea828bbb923c68a11f081c44f169f6c6243861e82"
+    },
+    {
+      "path": "Design/tsconfig.json",
+      "bytes": 576,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "30d42e9a4ba46625b435f4783adfc6817037ff82fe184a0f9ba6765e09b19d67"
+    },
+    {
+      "path": "Design/vite.config.ts",
+      "bytes": 378,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "056d189ac9366984b7f7813e02c5eb3e20c5754dfb479dc6edc9c0f75c7d7964"
+    },
+    {
+      "path": "Design/html/classify_dark.html",
+      "bytes": 38266,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "0c60bd9facb0aad02c26e889da0d143978212aafd69fde122ba3c0b796136dc1"
+    },
+    {
+      "path": "Design/html/classify_light.html",
+      "bytes": 34308,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "322e16e2e93b55c5b4771912beabe49959345f99032b8931dae635c2801e9765"
+    },
+    {
+      "path": "Design/html/dashboard_dark.html",
+      "bytes": 35672,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "17623fb7fe50ff6d781a8fcf64d5f64dc1cc7f77d4bea60cc03a17810b66af77"
+    },
+    {
+      "path": "Design/html/dashboard_light.html",
+      "bytes": 31770,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "fa2ccb44bd7f025d1cb0f68e49d9736b691bfc15720bfdf332875f4e03e8855a"
+    },
+    {
+      "path": "Design/html/history_dark.html",
+      "bytes": 47295,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "27e3dade92bc387b1a149a646b543ea9e3c2a0e4cb7e98bb27f9045f8ae9f0d3"
+    },
+    {
+      "path": "Design/html/history_light.html",
+      "bytes": 42270,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "52b8ffe675b19c020836767be4cbeb53a8f92aa92eef09f6558d5e3ca834b216"
+    },
+    {
+      "path": "Design/html/logo.svg",
+      "bytes": 1177,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "b9641d516c96f309f91f3834bccc2b65ec2bab0baf1e353d7492737e74d3d0ca"
+    },
+    {
+      "path": "Design/public/atmosight.svg",
+      "bytes": 409,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "662cd3ba2ae36f284b6fff94cc426969a4444b6c65764f1bf985ee65392b2328"
+    },
+    {
+      "path": "Design/public/logo.svg",
+      "bytes": 1179,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "94c52b7ce3db65b774bba0eca6080d1d9c81d3e86bd5e93ff11d92da643eb345"
+    },
+    {
+      "path": "Design/screenshots/classify_dark.png",
+      "bytes": 105476,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "a1373d01d39fe5295758b94d6d226d6702c956f050bbcf8656d253aeabdccd11"
+    },
+    {
+      "path": "Design/screenshots/classify_light.png",
+      "bytes": 118757,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "58b15890cbf1c67a819e616d0a7f5a7bcf1553308a321a89000e10e978e5acb6"
+    },
+    {
+      "path": "Design/screenshots/dashboard_dark.png",
+      "bytes": 143451,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "06b1ae235599600399dcf46e547125c605bfcf130ec4b3d21eed23c8bc1a18cb"
+    },
+    {
+      "path": "Design/screenshots/dashboard_light.png",
+      "bytes": 105476,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "b728bc0ca9de42112661fc6aa3ae2749d8b2778e88ec0bd15ffe54d185eb1f75"
+    },
+    {
+      "path": "Design/screenshots/history_dark.png",
+      "bytes": 82278,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "3f32a11eb93ec4fce5347f93098558b5c942e55b5721db34eba5bc3c3e64df75"
+    },
+    {
+      "path": "Design/screenshots/history_light.png",
+      "bytes": 88657,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "3468b8571a648efdd2f286b079d286dd40788a69c7454995d949e41d675cecae"
+    },
+    {
+      "path": "Design/screenshots/logo.png",
+      "bytes": 10898,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "32cce190a8e9a4b3ae1f61f3e81f2a8e8c6f66c9b7ca8d43037d2d2a140dcb9d"
+    },
+    {
+      "path": "Design/src/App.tsx",
+      "bytes": 53734,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "019e94d536a951c960777deeead6306003edd8c72baf2ce3a475fc1ebf0c13a2"
+    },
+    {
+      "path": "Design/src/index.css",
+      "bytes": 16487,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "842b4ecb5c8cb1d5b7611080fe79803fefa3cd265dbddb10cc9a709913cf9d76"
+    },
+    {
+      "path": "Design/src/main.tsx",
+      "bytes": 240,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "4e275b5aa236e235a3ffb8300e02c0b06ca4430d73500ae33a75ccc248c81e50"
+    },
+    {
+      "path": "Design/src/vite-env.d.ts",
+      "bytes": 38,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "Design/src/components/ImportWizard.tsx",
+      "bytes": 13027,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a276ad3cb9df9a4354afc18b6f113f056949764f154df444484721cf6c087a9f"
+    },
+    {
+      "path": "Design/src/components/classify/PollutantInput.tsx",
+      "bytes": 2765,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "863f838ebefd2682ec96e850e0295e449b528bcaefb0bc677015c29478120608"
+    },
+    {
+      "path": "Design/src/components/classify/ResultsPanel.tsx",
+      "bytes": 10243,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "480dab1b4471a9cd83ea5584202c5ed856e3c7152a8f80aa9cc6dcf92a66f29d"
+    },
+    {
+      "path": "Design/src/components/common/AnomalyBanner.tsx",
+      "bytes": 1604,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "2a74bfe8ca6fefd5f9ba4c626481f6e17392a03cdb0b900bbf6c4aca3727e816"
+    },
+    {
+      "path": "Design/src/components/common/ConfidenceRing.tsx",
+      "bytes": 1955,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "caa3cb0cb0546df59ceb055aad707ba6ed176922d4d69c8b0b300025c8753e6e"
+    },
+    {
+      "path": "Design/src/components/common/ContributionBar.tsx",
+      "bytes": 2698,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "fb684623689c6e457fa144123374cc7ebcafaffdd9e085f26c877184655c8e99"
+    },
+    {
+      "path": "Design/src/components/common/StatusBadge.tsx",
+      "bytes": 2686,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "79c48c9e30b0af968cd0b73ffa06d22ba44aafbf0a88a02e4701c6d23f1c52ed"
+    },
+    {
+      "path": "Design/src/components/dashboard/IslamabadHeroCard.tsx",
+      "bytes": 14826,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "1cc262226b799b2f5816e7aae27499df1f9c10896b56a942691f37c4b2bf2b5b"
+    },
+    {
+      "path": "Design/src/components/dashboard/QuickClassifyCard.tsx",
+      "bytes": 4932,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "d1ad56e059e61d0247b90e531e4ecd4fcede963ac6cdcc94e405c3399f5bfb00"
+    },
+    {
+      "path": "Design/src/components/dashboard/RecentActivityCard.tsx",
+      "bytes": 3618,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "5f6e4b975a72012b703da80e107f1ad5d9290ff43f63eb3ea3d6443531143dd5"
+    },
+    {
+      "path": "Design/src/components/dashboard/TodayTrendChart.tsx",
+      "bytes": 7113,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "aae77ccd14445e33ff2aaa7552603c7ea9746dffeec3614c4ea37dd1ffcdcf71"
+    },
+    {
+      "path": "Design/src/components/history/DetailModal.tsx",
+      "bytes": 18469,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "7274f15cb7d6ad7ab7dc7b2a908bfc993bc290f4d4ff65b4041fbaa2071d66b5"
+    },
+    {
+      "path": "Design/src/components/history/HistoryTable.tsx",
+      "bytes": 18296,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "86714dc66fcc7d759da83e04c47b548e34b25c1d143e218c4ac0c75470c1881f"
+    },
+    {
+      "path": "Design/src/components/layout/Header.tsx",
+      "bytes": 5305,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "2e858d8faa16510e9404584d35121a93f0560708c1f841c276a90e0802cb00d7"
+    },
+    {
+      "path": "Design/src/components/layout/Sidebar.tsx",
+      "bytes": 4573,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "7368bf056dd9fbd0cb781d1db9deea1e467ef72d67e8a4681e7f422780cf6f9f"
+    },
+    {
+      "path": "Design/src/context/HistoryContext.tsx",
+      "bytes": 7525,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "aa0b1eebe69a2279a4d2ce411237d74a6df57f3271935bb5c2fd4c7f041f2c6d"
+    },
+    {
+      "path": "Design/src/context/ThemeContext.tsx",
+      "bytes": 1129,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "0baf44ff382ac820e400d5ffcefcd5311523a32c12393634d4efde38ffee62b7"
+    },
+    {
+      "path": "Design/src/pages/ClassifyPage.tsx",
+      "bytes": 12897,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "682da7bd6f556848c615af0be4646629e2a79a88e4fe0d81ecafa27614bd9d6e"
+    },
+    {
+      "path": "Design/src/pages/DashboardPage.tsx",
+      "bytes": 6783,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "4919e7077ecebae082be2e88780b6d9ccc58deaf2ab388f722779af004815d6a"
+    },
+    {
+      "path": "Design/src/pages/HistoryPage.tsx",
+      "bytes": 4507,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "b0323e632218d900527a559e27933e8bead6de8a3e25f70bb78fe7516d7aaf69"
+    },
+    {
+      "path": "Design/src/services/api.ts",
+      "bytes": 3892,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "02f7e65f0f1842265dd30a2fb9954dffcb8e08f0c480830518f1cf5af62d58a0"
+    },
+    {
+      "path": "Design/src/services/engine.ts",
+      "bytes": 4247,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "75a08297d20ce7f03927bc5f83cddb4933ea540e14262c49fb1db10b380abc9d"
+    },
+    {
+      "path": "Design/src/services/weatherApi.ts",
+      "bytes": 12024,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "e945726a26ed78665eb893eb8c0f122690d9df287654a90867c740890b13fc73"
+    },
+    {
+      "path": "Design/src/types/aqi.ts",
+      "bytes": 1361,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "bc55d8755b532ba3784a7525f037a7b9c6054ee99e3703fed11f669b33edf57c"
+    },
+    {
+      "path": "Design/src-tauri/build.rs",
+      "bytes": 35,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "8af41c0062014fc594e4bb9899e60ee9930ab57d4cf0c73041ff557d6ec736e6"
+    },
+    {
+      "path": "Design/src-tauri/Cargo.lock",
+      "bytes": 120087,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "c7655e4f210e8acc2c3b30ed75ffe8e68f0cb0dcd64dde07314241197df25d0d"
+    },
+    {
+      "path": "Design/src-tauri/Cargo.toml",
+      "bytes": 322,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "8689c2e05887e2a0a3fa78d0f609e60986f517d432485d3eec3838be8dc66eea"
+    },
+    {
+      "path": "Design/src-tauri/tauri.conf.json",
+      "bytes": 1093,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "e33ad79c71ce537f0fd996a584504a58df78f4dc81a5d3180fa1a56226754534"
+    },
+    {
+      "path": "Design/src-tauri/capabilities/default.json",
+      "bytes": 123,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "807ef086526fd35587acb63dbc14cbd527ed8b8a6b0cec85b4b68e54669d3772"
+    },
+    {
+      "path": "Design/src-tauri/icons/128x128.png",
+      "bytes": 2921,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "0863115098bc86fb3c5e80db851f84e529b6c1c9dbd6bc71c4518d8ce68f7b3a"
+    },
+    {
+      "path": "Design/src-tauri/icons/128x128@2x.png",
+      "bytes": 5636,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "76f79f31fd585f5abf8d1507e3fe27c01fc7c6a3b356d4bd6a546136fc8523d8"
+    },
+    {
+      "path": "Design/src-tauri/icons/32x32.png",
+      "bytes": 796,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "c35560d97f501b493b1e7bc63b97dc807e48a2c47d9a5e66a15071da8b5db821"
+    },
+    {
+      "path": "Design/src-tauri/icons/64x64.png",
+      "bytes": 1507,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "f48ffdc1bffb18b0b75028cea3ac939895eaa3613da03a675e8c3ad311c12c7a"
+    },
+    {
+      "path": "Design/src-tauri/icons/icon.icns",
+      "bytes": 69362,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "dfa1e6bd1c32936e43e1c2a7066b3a1dcbf35b32ecb91e68fa053380833bfdcf"
+    },
+    {
+      "path": "Design/src-tauri/icons/icon.ico",
+      "bytes": 12319,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a1a892e5363b587698b23c3e8d34d7e4a1b8f080e99bdfaf7c738208ec942d3d"
+    },
+    {
+      "path": "Design/src-tauri/icons/icon.png",
+      "bytes": 12115,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "541afd75446140531c1d1b07d3e5eee395402bc849c99f95afef7e0a2f0eb06f"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square107x107Logo.png",
+      "bytes": 2528,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "13f7cc40dba9408e3318a273f6c5d27e9d1b6476409afd8cbf36ec5fb1d268e8"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square142x142Logo.png",
+      "bytes": 3183,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a03e2ce79c72ade255a95fc1c4ebc8883c250ccf0db89a9cfb2d25769e0d9747"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square150x150Logo.png",
+      "bytes": 3451,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "3872c320e9163f07152f962a194330e16c9cd6eb75e02423512b2844bc36869c"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square284x284Logo.png",
+      "bytes": 6660,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "767f4f183f971b047f7befa7c1ce5ceaf07927e5164dd658c85e586dea6c628d"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square30x30Logo.png",
+      "bytes": 833,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "75d4950ed7a4b8e407d31060add0c0bc1fc1e828983c4d040a4ea8b568125ac0"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square310x310Logo.png",
+      "bytes": 7211,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a38d8cbc305419f180d25846aa6e7613d229a6ce7114e4d5081f66b46d61b9c8"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square44x44Logo.png",
+      "bytes": 1074,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "ac1957f7f1a9e9bdb2f33737171d3cdc42f1fcd3be383f137a214b949fdc6192"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square71x71Logo.png",
+      "bytes": 1601,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "2a2089076e53087135550a7aa72bd1d0e1a6b8df7647d6b9e9141c5d6ff86631"
+    },
+    {
+      "path": "Design/src-tauri/icons/Square89x89Logo.png",
+      "bytes": 2038,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "5cf3f6bc552f5f9c1f179fdc0a550197754cd118d1d6639cc35edfba49da101d"
+    },
+    {
+      "path": "Design/src-tauri/icons/StoreLogo.png",
+      "bytes": 1279,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "52bf7a2efa6e9dd5753918af17337415963ca639f676b056425043bcf142771d"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 261,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "760d4b8a06bf7163dd010c33ad2cac9e4a75fa0177afaba042f83e311eef0c3e"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png",
+      "bytes": 3579,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "4ab022a459d60272f74b20c1c13b85316834731e1734f7167116c8da9f15cbc4"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png",
+      "bytes": 3816,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "0ce222fc79b525d30fba6ec1fdaf281fd412286ef696c75ee57a8be2420e07f7"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 3131,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a84eee043ce316634e30347e51096e3f14671328980a9a05b486836613c326a4"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png",
+      "bytes": 2277,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "c4828060db1b722bcecc7f765ab65c2a485987f47a027043a8908adb8e9bbf9a"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png",
+      "bytes": 2441,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "25c5ed6a4a996bccd96ada447103dec23edbe823c9e54a6a5a25a07e2def651b"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 1983,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "4a0bf07ad02c7f636c8164536d4b4ba19053843469f7691f9a39b78d086b7285"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 4700,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a3946c7d9af87ca42a35357fafc9865c356c191591c73c184f7ac3ecadbaa33c"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png",
+      "bytes": 4867,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a877272bdc5da7b74d8fef164ab1a194c929e349615a50808da64a28d955049a"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 4203,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "e212aaef0fd1607e8ac10bb05adf4923677d09e50133ec643721652c47c51ce8"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 7237,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "71a9a387419d6505a932359aa0bc405a7b2430d68484eaee804e48de7a48c288"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "bytes": 7593,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "0be898a687dfcac5280631315e72044ec1555c594e5d812341eb08ad33f6f252"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 6161,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a7eac014e9c1bf97be59aa5b665b00c0f51e601e0a72c4636001e246074dbb88"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 9678,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "56bbdccbcdb5c42494c4ebe8849b7f059d2124480d0c31ee755186865f0c605e"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "bytes": 10251,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "8c42bf856b9542a6d81ee12d40d289b8227a81454c7f8becca3b2f5f984d7e26"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 8202,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "0a48de5a297df0572b11eeb23303dd998c3b4c36fcb660d272ae91e243664863"
+    },
+    {
+      "path": "Design/src-tauri/icons/android/values/ic_launcher_background.xml",
+      "bytes": 118,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "b1c42868a1777ed1cf61108b506ffc91d0a826318d8516e36cf8f76fab8c4ced"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-20x20@1x.png",
+      "bytes": 521,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "a3b58c7541dff4b39e70ff708275552d75d9a87c46ba7ad6f9a9c5ded304232a"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
+      "bytes": 969,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "9369be3ff8ec1d221a1264f385159292ddc2e3ee374fe49e516d349dab134380"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-20x20@2x.png",
+      "bytes": 969,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "9369be3ff8ec1d221a1264f385159292ddc2e3ee374fe49e516d349dab134380"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-20x20@3x.png",
+      "bytes": 1419,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "f5b2400e05f75b3bcfbb753d1da50900a88393b8342c16e5c4fed647778bbe82"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-29x29@1x.png",
+      "bytes": 686,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "899686162e5a16f2b098ca751c461b253ed6d401104f023c6bd2811d8b7bae4b"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
+      "bytes": 1308,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "fe77d54b38d16d15346b43d2b1f3c54edfe4ed9a193548fb0bab669ec89ce1ca"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-29x29@2x.png",
+      "bytes": 1308,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "fe77d54b38d16d15346b43d2b1f3c54edfe4ed9a193548fb0bab669ec89ce1ca"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-29x29@3x.png",
+      "bytes": 1926,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "3c67e64e6cc458f84a9740a93a282da07c04b5da56b31d87bd1aeea17b210e5f"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-40x40@1x.png",
+      "bytes": 969,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "9369be3ff8ec1d221a1264f385159292ddc2e3ee374fe49e516d349dab134380"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
+      "bytes": 1834,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "51878ae62a402366ea59706a8a32295f66d9933265e2075395971509cb16a8b0"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-40x40@2x.png",
+      "bytes": 1834,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "51878ae62a402366ea59706a8a32295f66d9933265e2075395971509cb16a8b0"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-40x40@3x.png",
+      "bytes": 2636,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "67e9a7fc7eaaa18f0ca6f0f2ea1e841ceb180d35857c16f120509843066586fa"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-512@2x.png",
+      "bytes": 24630,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "50023805754037683dfe88b3381e85136e0fa0ac1a5486d1b69b618d1c75dc8c"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-60x60@2x.png",
+      "bytes": 2636,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "67e9a7fc7eaaa18f0ca6f0f2ea1e841ceb180d35857c16f120509843066586fa"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-60x60@3x.png",
+      "bytes": 3911,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "442918949528b501defefc64b54d7a67c136f439c0f6c3c46bf8f33e328e1016"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-76x76@1x.png",
+      "bytes": 1758,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "d0b7256fdfff07a819a3c24e75a4ed4baa5078b776f5f0117d9ebb1be15d3ecd"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-76x76@2x.png",
+      "bytes": 3353,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "c50113508635e5441d24b6d59373f9155ae2658bc42040a760a5c0c474c643e0"
+    },
+    {
+      "path": "Design/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
+      "bytes": 3634,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "c310a6e05988864ecdacb4ee5bc6cc2eb80270b01f30ee1bac18f3aee6357cc1"
+    },
+    {
+      "path": "Design/src-tauri/src/main.rs",
+      "bytes": 1683,
+      "include": true,
+      "reason": "frontend source/configuration or desktop source/assets",
+      "sha256": "0bb9be1fca4c2764f1d80b4b4b76435f6b1e46c6c3594011213ad8c5598f477a"
+    },
+    {
+      "path": "diagrams/01-upload-and-compatibility.mmd",
+      "bytes": 2031,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "86ad3a0eab5268fda1fd70b475f58782289b42dabb8e133c9025de2850bb2d32"
+    },
+    {
+      "path": "diagrams/01-upload-and-compatibility.svg",
+      "bytes": 6893,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "76cfeda9d73c193c0fa5a5d2180760fb25906c93090df214c05208c16ea6d04a"
+    },
+    {
+      "path": "diagrams/02-row-validation-and-model-selection.mmd",
+      "bytes": 2133,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "8febc188402ee75db1d7e7bb9eddc4ac47819c5360be2f297b4c7e5a3b6e512d"
+    },
+    {
+      "path": "diagrams/02-row-validation-and-model-selection.svg",
+      "bytes": 7054,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "3ddc6a41491bcc8a52e5ae3dd87bf7a83f717428eb7d3d48ea3507c7f834fe9e"
+    },
+    {
+      "path": "diagrams/03-results-explanations-and-exports.mmd",
+      "bytes": 2482,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "c8a5e659447ef5b9a7158cdaa7fa1ced70516fa8c040d5a21d78ddc87ed2f9bc"
+    },
+    {
+      "path": "diagrams/03-results-explanations-and-exports.svg",
+      "bytes": 7778,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "80f08f448ece460e4d9998b3276d357f9cb5c9734344ed6ad725dc7a1ec91c43"
+    },
+    {
+      "path": "diagrams/build_diagrams.py",
+      "bytes": 13641,
+      "include": true,
+      "reason": "helper directly referenced by retained documentation",
+      "sha256": "0e5a6b3174f2757959aca66b5bd25205595b5480e6a10f7382044024ff11aa5a"
+    },
+    {
+      "path": "diagrams/index.html",
+      "bytes": 3368,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "9b560782fbfe81d7d86f45d2c9b9f4f823e0462243037f66920e610a214a6404"
+    },
+    {
+      "path": "diagrams/README.md",
+      "bytes": 590,
+      "include": true,
+      "reason": "CSV pipeline documentation",
+      "sha256": "f0cc815f78365664f2c0e96ccbee869cf17cd180e4baace0987c339a493c669c"
+    },
+    {
+      "path": "docs/ADAPTABILITY_REPORT.md",
+      "bytes": 13246,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "05e902ad0fef3d4e30a2d28a8ad2f6217f8d083bdbd059cef9f8faa440695320"
+    },
+    {
+      "path": "docs/ATMOSIGHT_COMPLETE_CHAT_HANDOFF.docx",
+      "bytes": 59244,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4a66342f6b4d4fd3792ffd3db4604855fc75473885c3b81b58f945b6dfa7557d"
+    },
+    {
+      "path": "docs/ATMOSIGHT_USER_GUIDE_AND_STATUS.md",
+      "bytes": 18892,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4f7e2f5ff4998023a0a8bde37d0f48ac70ad690d9c26e0ef09bf7351d5a8bcc2"
+    },
+    {
+      "path": "docs/AUDIT.md",
+      "bytes": 2347,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "ed137f5a3262c5f2302296769b385fd6df4de8dc273f86a892cd6267871d6064"
+    },
+    {
+      "path": "docs/build_chat_handoff.py",
+      "bytes": 38226,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "374e242739df162114e857349727abb95411b93babf123fc23e6139640a4bdd5"
+    },
+    {
+      "path": "docs/LARGE_DATASET_SUPPORT.md",
+      "bytes": 4320,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "255f8557f41fe83ae04c3b0d4207664471cb4a08f59dc32323c61f08105e47f3"
+    },
+    {
+      "path": "docs/LARGE_DATASET_VALIDATION.json",
+      "bytes": 349,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "5ca7440a87d1016e52ddf8118d67961d95d30214438fc7fd43c60b6692050b22"
+    },
+    {
+      "path": "docs/ROBUSTNESS_EXPERIMENT.md",
+      "bytes": 74649,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "b0697a35e590ac635b662dbd3ba3c61c0eb40db7d3006abfa096d329e59d818c"
+    },
+    {
+      "path": "docs/ROBUSTNESS_RUN_GUIDE.md",
+      "bytes": 1927,
+      "include": true,
+      "reason": "helper directly referenced by retained documentation",
+      "sha256": "c35d3ae22a8e8f2a0b7269597c7aee3a8d8aa8faec6c2921a15e586914c9a569"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 6725,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "7988abd9e8b23444b59ffd5d14eb372005b03e7728788e0c039f36a343108644"
+    },
+    {
+      "path": "docs/qa-2026-10-17/api-results.json",
+      "bytes": 2681,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "57ddba86ba883bfc87a438ab56256b7eb77ea742ee36a59a560c2cf093c1b342"
+    },
+    {
+      "path": "docs/qa-2026-10-17/backend-tests.txt",
+      "bytes": 2651,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "a7c469e4750602cc837a9fb9405c1736de3edb25a6c9d371cac79b563e843461"
+    },
+    {
+      "path": "docs/qa-2026-10-17/classification.png",
+      "bytes": 152128,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "6c324825d652713b06aa1d176c237d36e458cf0de139f87a9bff16654ad2f2a3"
+    },
+    {
+      "path": "docs/qa-2026-10-17/csv-results.png",
+      "bytes": 312166,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "62d3912d9f6b5e70b7619751855fbb5ddf81376239ace39f344786e599a2fdc9"
+    },
+    {
+      "path": "docs/qa-2026-10-17/dashboard.png",
+      "bytes": 104835,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "289bb82137d1ae1f09c749fe7ace59d85621f831d44c8caf255b9dd958ab7675"
+    },
+    {
+      "path": "docs/qa-2026-10-17/full-station-report.json",
+      "bytes": 144827700,
+      "include": false,
+      "reason": "over 50 MB",
+      "sha256": "e1b3ab03a610dd2934580243bf88c142c244e9e3ba0b87cbbee5d30d677b2e0c"
+    },
+    {
+      "path": "docs/qa-2026-10-17/full-station-results.png",
+      "bytes": 110623,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "df0d50fd7dfb808d9e45c785f2e96c46dad93c3a98e52829524f3feef5940604"
+    },
+    {
+      "path": "docs/qa-2026-10-17/history.json",
+      "bytes": 8709,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "85e6d76cfbd5e67a489b0002ddbe884a39dc9fa4dcc85e693ac9f1c42eb0625f"
+    },
+    {
+      "path": "docs/qa-2026-10-17/large-before.json",
+      "bytes": 440,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "13daf3a00c6e91d959b9e969b288c48ab5e28a04cd447e4e6d5611d39900f29c"
+    },
+    {
+      "path": "docs/qa-2026-10-17/large-ui-results.json",
+      "bytes": 335,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "991dd6522e1ceb6b0ba20c50978c963450727e0accf1f0cd462054258f6a3fa6"
+    },
+    {
+      "path": "docs/qa-2026-10-17/model-hashes.json",
+      "bytes": 633,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "1e3060b6f10ee5ba50b67ba2b080a607fd4fa5b0c30133c7bf4de36f52338188"
+    },
+    {
+      "path": "docs/qa-2026-10-17/models.png",
+      "bytes": 166709,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "ae38602eed0c07339f77811559912a75c773b11bfc4f52f886c6aae67f45e69c"
+    },
+    {
+      "path": "docs/qa-2026-10-17/normalized.csv",
+      "bytes": 225,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "d6487ec645e1efe839c40be5fc32cf0abe069d0bd0b93feec6c07089ddc2efc5"
+    },
+    {
+      "path": "docs/qa-2026-10-17/pagination-report.json",
+      "bytes": 23427,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "434fe6063ca3214b2d3e44f8464f600ff029c64af293f4ebeddb58a02f2b3cee"
+    },
+    {
+      "path": "docs/qa-2026-10-17/quality-report.json",
+      "bytes": 10733,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4d22f562e590890e82ba5098219d0e4344f0f5af439b4b533879a3af4f5f7cf3"
+    },
+    {
+      "path": "docs/qa-2026-10-17/README.md",
+      "bytes": 4801,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "6990764211e8e9274629a8539aa9a6b27c5159e5a114aa0620bd805ee5a9d4d5"
+    },
+    {
+      "path": "docs/qa-2026-10-17/template.csv",
+      "bytes": 51,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "e090be7c89dca8b6cd745637909e876a31b7c342bd7152bd673c5cfb6126459f"
+    },
+    {
+      "path": "docs/qa-2026-10-17/ui-results.json",
+      "bytes": 1651,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "bc4b8d8f09a602ddad03f40d22d23a4f4920d6913def7794ac3e474c56408a4e"
+    },
+    {
+      "path": "docs/qa-2026-10-17/before/app.py",
+      "bytes": 10981,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "361646d68ae6b0c9bcdac6845316a0f788f2bf76b6b8b863d1818c2daf588499"
+    },
+    {
+      "path": "docs/qa-2026-10-17/before/App.tsx",
+      "bytes": 52620,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "f0692d0721f72cc60e5991fa76bcce24e81131b4b56ea53dc65bf95c4b767bb5"
+    },
+    {
+      "path": "docs/qa-2026-10-17/before/engine.ts",
+      "bytes": 3818,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "148a9c29cd9ff8ec14c1193092c17345b58aa5f7d16c98776bc0daf8ef094557"
+    },
+    {
+      "path": "docs/qa-2026-10-17/before/ImportWizard.tsx",
+      "bytes": 11438,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "6edacefd5590cd9275ce637fa97293b82b5384f883c1636ff76a1fcd11613c70"
+    },
+    {
+      "path": "docs/qa-2026-10-17/before/import_analysis.py",
+      "bytes": 10308,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "7471d999729a1b9a16721474a1feb3de538a9ba6a0b59a60a064cedacade086f"
+    },
+    {
+      "path": "docs/screenshots/adaptability-models.jpg",
+      "bytes": 189588,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "f4a26f8795994be48374fd4c8cd299923e19a1381fd52ab1eff3728bc33bcce9"
+    },
+    {
+      "path": "docs/screenshots/classify-partial.jpg",
+      "bytes": 74819,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "3d2f0071b2729f79c0fc73dc7b38444a248db727528f855c04347b5ad66f6f03"
+    },
+    {
+      "path": "docs/screenshots/dashboard-light.jpg",
+      "bytes": 72525,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "d522426be8964c3fcd66fc784f712b9f8727f3c15e34f6b5b7afc6cd9f15603c"
+    },
+    {
+      "path": "docs/screenshots/large-dataset-pagination.jpg",
+      "bytes": 65202,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "a75fd6302e1d4aa27bd69dc4e161e208c7d818fb38900420fcbcc4c16befdf47"
+    },
+    {
+      "path": "docs/screenshots/model-evidence.jpg",
+      "bytes": 70326,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "5e18b1160d6e22835f0780867b13e8ba3988c5a8025d57ec9e704a00ca0968fe"
+    },
+    {
+      "path": "docs/screenshots/settings-dark.jpg",
+      "bytes": 75683,
+      "include": true,
+      "reason": "technical report or real application screenshot",
+      "sha256": "b93e4dca9933ababb05e4a3c5b566e3da876a4a9657a111c65e6aa14362dc3ab"
+    },
+    {
+      "path": "experiments/robustness/.gitignore",
+      "bytes": 49,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "cee6647e62ab5ffa0b01f8e846aaa637b22297e8529429c0879572b5de4faa02"
+    },
+    {
+      "path": "experiments/robustness/core.py",
+      "bytes": 6772,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "a8e75918090571767ff0e73e1b75845dbf4181cf9a92fa0a203f95e21c709c43"
+    },
+    {
+      "path": "experiments/robustness/environment.json",
+      "bytes": 334,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "bf5874c97152935e70ccc65d01022dc282fbc6ebe58348be60ddcf2c0670766f"
+    },
+    {
+      "path": "experiments/robustness/finish_run.py",
+      "bytes": 605,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "3d179ad306ae18f40e2dcb76991e8f19c0a350850135f5bddd0439bfe84e2521"
+    },
+    {
+      "path": "experiments/robustness/protocol.json",
+      "bytes": 1382,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "4fb145fefcb97fdc38ef181aa8cca1d054dfc1f6034aaa55491e1fa141c0981c"
+    },
+    {
+      "path": "experiments/robustness/report.py",
+      "bytes": 29422,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d1ececabc927209b16a2d991ffc2e6e8ac7b4bedc6e54786af4cfc827f17ee43"
+    },
+    {
+      "path": "experiments/robustness/run.py",
+      "bytes": 7031,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "bf46bc8e2f71e6614974491ff59772740a1aac79a073932d465570efefd3f0a6"
+    },
+    {
+      "path": "experiments/robustness/test_robustness.py",
+      "bytes": 4283,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "287c4e390309f000874010a4c5e742c1a3425670462ffe9a43e363e8b2c355b1"
+    },
+    {
+      "path": "experiments/robustness/results/baseline_reproduction.json",
+      "bytes": 190,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "a19d125bd2066078f46fef7c27900fdc3e68bfd0c471316454eb483929a8dab2"
+    },
+    {
+      "path": "experiments/robustness/results/decisions.json",
+      "bytes": 2715,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "b3f1331637b88f6e0188f758468ace0c46fd6d5755b6330618841540e7f08aa6"
+    },
+    {
+      "path": "experiments/robustness/results/manifest.json",
+      "bytes": 2793363,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "59eca16f2ef00afa53c1b96c54e4805fff9a4ec56f0627aadf9ec798f9f79c6b"
+    },
+    {
+      "path": "experiments/robustness/results/metrics.csv",
+      "bytes": 102872,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "32de17af5dcc9dd04781dd0399c0c8633b5dbbd59407de2b1edf757a6c5d0f72"
+    },
+    {
+      "path": "experiments/robustness/results/preservation_check.json",
+      "bytes": 96,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "5623a3c6af3b1f3d377f521d1332f8445a90d03c3219fb65a54b45b608051cf8"
+    },
+    {
+      "path": "experiments/robustness/results/prespecified_document.md",
+      "bytes": 6356,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d08b6a72c5462f8383ad19f81137185a13b8501f0d4e7542facf99f638929b7b"
+    },
+    {
+      "path": "experiments/robustness/results/report_manifest.json",
+      "bytes": 372,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2bd9d6573cacf4b0ced0e0ae6993cc2355ea69ff167931d1738463c8df199e96"
+    },
+    {
+      "path": "experiments/robustness/results/summary.csv",
+      "bytes": 73011,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "28908f5dcef63d309904658255043f1edfe8921dae556b2425b348bb0bfa99e8"
+    },
+    {
+      "path": "experiments/robustness/results/tests.txt",
+      "bytes": 103,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "657a0c7d58c9408ccf2b949e80a68df4a6bf90438a2ce2ce842e6f760f8e6780"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold1_augment.json",
+      "bytes": 11211,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "f4eae9d07fa6ba5adae615906a5dbb0556e7e73e0d903d3e2314567a38a7eb9c"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold1_augment_flags.json",
+      "bytes": 11339,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "ea30a56e05bd2aeddb23796dec70be57358165623267ce22680d0753f789bbfa"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold1_replace.json",
+      "bytes": 11192,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "8df621b1cf34962c4ae467dd51fd85c893010181d15c41945b21398b22e3bcbd"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold1_replace_flags.json",
+      "bytes": 11331,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "c3b7a4a3b20ba843f9a936aa392205200e6059ee58ea15adf6c306bdf3a5f74d"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold2_augment.json",
+      "bytes": 11197,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d38f174badcd2ea6c5477ba55d15085ed59a92c1e5cf9556ebf9e3a77413d539"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold2_augment_flags.json",
+      "bytes": 11329,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "3dcbca61078218d48ccfd5e5d3fde25cb288e0fc99cc22cca33e9df287fefedf"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold2_replace.json",
+      "bytes": 11166,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "81d1c53ab5daccb23d07224a9c5fcbd41535dcaad0c4af563c6657d7923f3aac"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold2_replace_flags.json",
+      "bytes": 11333,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "835d4762f967e166df28b1cad71371305c10a16ac89e7f779153e4fd4cb6ac55"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold3_augment.json",
+      "bytes": 11205,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d377ef65505aeaac2718b841b86dde2146ddfe44ad882ccfaa32a622e569c54b"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold3_augment_flags.json",
+      "bytes": 11315,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "6c60e0a1da258d052b747ea457421a952b0d3519fbc3455101a0a1c0ea68055e"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold3_replace.json",
+      "bytes": 11181,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "149e176933ee7dcc63cbe7135dbe627ff80ed4aad6bb63a797c954dcf73633d8"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold3_replace_flags.json",
+      "bytes": 11312,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "926e1f162a0eec71858d5a42d0af26bc58f2e79e9055095a0e0aaa5b5eaa5c2d"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold4_augment.json",
+      "bytes": 11200,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "8e0da47cc3cbb02223e57a34f16f130be7f3bc115a9bafaff08943adcfba7d54"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold4_augment_flags.json",
+      "bytes": 11349,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "4deb63c0617ed08e6ebd977c8db5743c66ab8d4c75a842f623cc411162e725bd"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold4_replace.json",
+      "bytes": 11204,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "aab4d6a87f875419b42aad1a006fd21757672b284211ca55cb8adb61a7b56629"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold4_replace_flags.json",
+      "bytes": 11309,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "b17317ac3d961209e40a1e049ca52d9b1db129b028db8635f2dad985ac6a0b50"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold5_augment.json",
+      "bytes": 11206,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "765baca13974a08aa64729233b53796514b76aa59c0dcd9445b820510fa6faf9"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold5_augment_flags.json",
+      "bytes": 11321,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "8e4acba559ed25cb4a270cb674ee56fe57fa676d836cb4c4166fd5fb1ec9a0e2"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold5_replace.json",
+      "bytes": 11210,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "83ff0a6a55aa059cd86793d51ea785ea0ec4a9767996924759ea37ea68677100"
+    },
+    {
+      "path": "experiments/robustness/results/cv/random_fold5_replace_flags.json",
+      "bytes": 11319,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2a3c334c71e06bde933ca0e7674518e821f50ec88ccd49043514901644a866ca"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold1_augment.json",
+      "bytes": 11213,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "e01c9eaa42cb3ddcac27b345f3e2f287af9c5ec1572192e00dde9cc2b2dc54af"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold1_augment_flags.json",
+      "bytes": 11354,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2603953635de8af06bd6edb4d545b211d0c1676a97987aaf96ca5871d8a78564"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold1_replace.json",
+      "bytes": 11188,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "abe98335054883f1ca7de81c2eae45389bd2b4540960a4e99330ae5e90959297"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold1_replace_flags.json",
+      "bytes": 11315,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "dd67e2482cf7491a456c4a7442747f49bd9114cced4a163f763f8feda2b282fc"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold2_augment.json",
+      "bytes": 11184,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "4c8e22321d1b90eb7eb499b81dc295adddd5011e594d47f07429c8aad56b3411"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold2_augment_flags.json",
+      "bytes": 11345,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2b8b5a3fb19eba8d81383314b3d078e9a1efe89e08a53380468dc43ce82968bc"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold2_replace.json",
+      "bytes": 11189,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "3979b7ea9baa343aac85d581808a375f22f104a26f19451a84d374048850356a"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold2_replace_flags.json",
+      "bytes": 11321,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "0af084d6f3b56da64470e0d524688bd07472e4f2fbd5fc43f510a8874f74b191"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold3_augment.json",
+      "bytes": 11182,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "73e275db43394ef99c42b135421b0db3f5eec61b3fcf75cc769f33abe3983524"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold3_augment_flags.json",
+      "bytes": 11313,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "3b87afd0111682e13729a2f34c147117bd17c7cefbffe1da63d0a5669ff13c20"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold3_replace.json",
+      "bytes": 11161,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d5129ce75420eddd1884fb941d37bbe53170042b83e4deacd6eb7e9975d7d683"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold3_replace_flags.json",
+      "bytes": 11300,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "8312f3590b46ea8bfdeff70d4832c4fa9d1c599a608006d83cc8815c188232f7"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold4_augment.json",
+      "bytes": 11184,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "73b6e0f53a3215dc14220693b188a4261eee362f31a7ce9da12433b4df7c9c16"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold4_augment_flags.json",
+      "bytes": 11342,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "a45990ca21f6286ce27c8852efde864dfdedc3c8be45f4ad834516805c5ac5ab"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold4_replace.json",
+      "bytes": 11151,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "771cfb00d3d76cb4d075ae48af176ae0ecee626efcd4ab49ff8d84c9be4909cc"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold4_replace_flags.json",
+      "bytes": 11326,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2a05b443b2055d9148793d409dba673662a87172e772a8a57f400b53d1946ddb"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold5_augment.json",
+      "bytes": 11151,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "908564e759e9664e25c326bbb7a270b28924915e2af86d733306b5a9014801dd"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold5_augment_flags.json",
+      "bytes": 11275,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "c79b3b8cd4f073f1e900b59640cfd10aa8fba4e2daa8ac9ecf6e426e08dd8677"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold5_replace.json",
+      "bytes": 11107,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "b155706d853e09055a16183628a4faacc7128c7bd306e645bde04946e0d2b9d0"
+    },
+    {
+      "path": "experiments/robustness/results/cv/station_fold5_replace_flags.json",
+      "bytes": 11255,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "ae9586e39c20072f93c891ede10c0e0168c3642aeb12ec95342b837a0b7e9780"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed42_augment.json",
+      "bytes": 11202,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "bc46d5461332ffa7eba622ea6d228d44dcae0128b8d80ab5dc7e65c73fdac8a9"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed42_augment_flags.json",
+      "bytes": 11334,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d6db817fc3f7f97fc97bacfe9ef6184cc213e72fe4435c05053db97505d1f08e"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed42_replace.json",
+      "bytes": 11202,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "6da386fb7c586d5c1299a10583bbcd2952fddc457fcb682828cde92ff9be0608"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed42_replace_flags.json",
+      "bytes": 11335,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "1b7d6a2d04bb880c8c3953c2bfdf1d4b3706d9b9162e712e4d5b1b214080679b"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed43_augment.json",
+      "bytes": 11193,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "19257f7bf247657c4d2d69abd370197463631fd7de8f6a399b850d274c232b96"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed43_augment_flags.json",
+      "bytes": 11314,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "b50d77e949fa6401906f07ed9a47b3a517d07b4f9721f4f3630063a7f34da776"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed43_replace.json",
+      "bytes": 11204,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "0ae872d8ebf5c53de65e3981e761b712ead9bfb824797ebb7ad837baad42154b"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed43_replace_flags.json",
+      "bytes": 11320,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2ce3f4bcb5f2e5286a9acb5845574419103c683b8e95af780619d33897d80fa9"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed44_augment.json",
+      "bytes": 11193,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "8a8eb4f676937b0697481ab2f42a5f3b28566de59fb672333081d90018b05435"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed44_augment_flags.json",
+      "bytes": 11286,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "613ab1d1afef7810e97ebc3ffeedaf15bb178fdd8d05ebbba0da3397c9dc91a0"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed44_replace.json",
+      "bytes": 11205,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "108ce04b623682e5911fba8217522219e6a6ba638da1ed2c6bf610c732f57bc7"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed44_replace_flags.json",
+      "bytes": 11280,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "a575849ba21fa07ecfd4b28586af036b2591fdfeba99645d1f6e5cdddefe45dd"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed45_augment.json",
+      "bytes": 11169,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "f06ebba9a43468c8093c682af5a9986757029a025bd636efdf7211a2c4cbb3b0"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed45_augment_flags.json",
+      "bytes": 11341,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d34ddadcb4f1510b2d1ff3a70f59cf8c010af5ec0debe791c1a4afbdc8fe0f79"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed45_replace.json",
+      "bytes": 11210,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "a54a0369389310582a3ee218a46e48c196bfd91215fad78f43e12d01fa885547"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed45_replace_flags.json",
+      "bytes": 11331,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "fb1a0f0186b14093adc8a9b605b28b907a7ce8ee2ff8752592fd93466c6b93f7"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed46_augment.json",
+      "bytes": 11200,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "7c3c0722e75b7a399ae7ca929ed82e0c4569680196a64000f07ecb3084e71578"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed46_augment_flags.json",
+      "bytes": 11335,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "78e30fd233598727b60174fe4481605b7cc49425eda2051dcd11f3b62a5d2f81"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed46_replace.json",
+      "bytes": 11199,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d2002d61665e0f3b2f9e7347a0fe0fe525dd51afc4d0429f68d22485fa34ab40"
+    },
+    {
+      "path": "experiments/robustness/results/test/random_seed46_replace_flags.json",
+      "bytes": 11342,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "2a100020af7f58ff549cea4cda9843bbe8d02a068a2d2dde836970e68168109c"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed42_augment.json",
+      "bytes": 11211,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "c2fb2c026933a696da8d6fd7b46c289ecce8568bf0917133ef483649c5c1e2d2"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed42_augment_flags.json",
+      "bytes": 11342,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "bb5317130f820a80aa9cc38940497aeb70f4d392ef86bd1cf7ecbe9916360c06"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed42_replace.json",
+      "bytes": 11202,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "5297a88f1b24fbf1d311ae24716a9e7956b1a28918ce17e79bc23eec4eabf30e"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed42_replace_flags.json",
+      "bytes": 11356,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "68e97e887e49717254761d61703bd22d826588d3424f5baf6a43b5f195b5ee0b"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed43_augment.json",
+      "bytes": 11223,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d1e97ac65cef9298898cb5cf576d232f12184f796c2a7f237fffdb94c9a28faf"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed43_augment_flags.json",
+      "bytes": 11340,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "ad246ca98a206f26eecbf9f42e76e134637956d746a6021ebec185a74f9fe9f4"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed43_replace.json",
+      "bytes": 11184,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "ddd6872f5beb3770134245c277d62427b65f1c19e1aa6d369f67df5ffcbd622c"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed43_replace_flags.json",
+      "bytes": 11343,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "c306f3f48f7fcfdad8c18ebfda52539c6e323dc673b25b69a621df262a7048f5"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed44_augment.json",
+      "bytes": 11201,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "61039510654e3c0e5704317e3aa18b058df8a62d4a92e21a1c71953846590a71"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed44_augment_flags.json",
+      "bytes": 11319,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "0a42bfecce47ffede997328c769ffa43bfa93a4940b4188ab6ddb77edc325eb2"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed44_replace.json",
+      "bytes": 11180,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "e0b15d7000b31f277cdfe181ee6f9f814480432d274f82ebeb2a0d2b19fa90ec"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed44_replace_flags.json",
+      "bytes": 11326,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "4788f3ac52f13b1f310bbe104b67bb25fa381beeda917e90537d4773cc19511a"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed45_augment.json",
+      "bytes": 11215,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "82a9fac33d2f6ee235a451c77da73466aaedf2909979d068546ac552e5aaad24"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed45_augment_flags.json",
+      "bytes": 11325,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "b5e08e7bfbd824c3be966f870b1efe26bb2b05618fca90f157dc47470cf2bca5"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed45_replace.json",
+      "bytes": 11204,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "951f14631704156005a064152c0455f28b7842ebdc0da23a3282a14e69ef4b0b"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed45_replace_flags.json",
+      "bytes": 11346,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "b87378750067f5fd88cab26b2f695ead766a92b690624954f942c9d62a73119a"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed46_augment.json",
+      "bytes": 11216,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "316d364c91a60215e86d595cb2cd5a91193752a998a9eac7513e075353d657e6"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed46_augment_flags.json",
+      "bytes": 11353,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "c01f0d8ffa54e99e6c1411f06ca6efbddc3c885455c727711022570c6c875b50"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed46_replace.json",
+      "bytes": 11207,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "d48a32237cdaf9fd016a5381bd637d92e665c96460f2a13ddf5909996575f026"
+    },
+    {
+      "path": "experiments/robustness/results/test/station_seed46_replace_flags.json",
+      "bytes": 11346,
+      "include": true,
+      "reason": "research implementation, protocol and complete result evidence",
+      "sha256": "ac3bc5fc0f24ecaf4b10a97ab8f85f226a3af525d62a70d9d63c47ac28e782d6"
+    },
+    {
+      "path": "report_review/01-upload-and-compatibility.png",
+      "bytes": 625552,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4c8b4cc180c044f9151f0e9aef4023d4ad929d45fe0f54594d9797393227f3fc"
+    },
+    {
+      "path": "report_review/02-row-validation-and-model-selection.png",
+      "bytes": 655389,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "14f0a56df8d3161d6fad1c21332b82644dfae0ae2b38d35e8e9cb716281047cc"
+    },
+    {
+      "path": "report_review/03-results-explanations-and-exports.png",
+      "bytes": 741549,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "4013bb6a708c08bb97f9c6962437a6116f0695357a976c2a557a8a8771df2eef"
+    },
+    {
+      "path": "report_review/add_diagrams.py",
+      "bytes": 5370,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "1b3833febf3d5c1d7a0acb11a34c46bcf8fd1c5496b0496681767bc1ebc4d4e4"
+    },
+    {
+      "path": "report_review/Atmosight_Report_Citation_Reviewed.docx",
+      "bytes": 24666,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "b96338b8575dffb028a315eeffb08f9b4aa0c5e4cc90a7d0def3af7d4943b030"
+    },
+    {
+      "path": "report_review/Atmosight_Report_With_Diagrams.docx",
+      "bytes": 1728265,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "eeae07c8ed7330ecbb81cb4f594b1ad4b3617578e2bbed4ad72116d04c1bd99c"
+    },
+    {
+      "path": "report_review/build_review.py",
+      "bytes": 32877,
+      "include": false,
+      "reason": "draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file",
+      "sha256": "60729205abd7c0afe341289328568672e3f8c6accc10a054ffaf699cbbcf7437"
+    },
+    {
+      "path": "scripts/build-adaptive-desktop.ps1",
+      "bytes": 719,
+      "include": true,
+      "reason": "helper directly referenced by retained documentation",
+      "sha256": "946466e23eb111c6433bac27eba061f7f534c9f8f13067dac3ade1a8dc9e58ef"
+    },
+    {
+      "path": "scripts/build-backend.ps1",
+      "bytes": 1331,
+      "include": true,
+      "reason": "existing portable build/development helper",
+      "sha256": "6901257f695a1ac4048dfef2cbea57d8037c0f40e4d4ec26067dffe805e49e24"
+    },
+    {
+      "path": "scripts/qa-large-ui.cjs",
+      "bytes": 3002,
+      "include": true,
+      "reason": "existing automated integration/browser QA test",
+      "sha256": "dc63f952f62a0fdab0b3cf22872f4fc99af904b786144d07f34aac1cfc5ab466"
+    },
+    {
+      "path": "scripts/qa-ui.cjs",
+      "bytes": 10557,
+      "include": true,
+      "reason": "existing automated integration/browser QA test",
+      "sha256": "f24908b93a32f1f03b10b04ef33e0b507a69ca76a42fd954bfb467a4efd64aad"
+    },
+    {
+      "path": "scripts/qa_api.py",
+      "bytes": 3510,
+      "include": true,
+      "reason": "existing automated integration/browser QA test",
+      "sha256": "67d3efa3abd3e92fa884533531c11fab0ef8c25cbd6d1d49fef3fbb9fb220d63"
+    },
+    {
+      "path": "scripts/start-dev.ps1",
+      "bytes": 697,
+      "include": true,
+      "reason": "existing portable build/development helper",
+      "sha256": "e446fc8825ce35c4a76e9bfce3a23c3c3530f592f9a465aca0107439c914b537"
+    }
+  ],
+  "modifications": [
+    {
+      "path": "experiments/robustness/report.py",
+      "reason": "replace machine-specific repository path with relative path/root placeholder; no model or experiment logic changes"
+    },
+    {
+      "path": "docs/ADAPTABILITY_REPORT.md",
+      "reason": "replace machine-specific repository path; add cleanup context for historical build/evidence references"
+    },
+    {
+      "path": "docs/ROBUSTNESS_EXPERIMENT.md",
+      "reason": "replace machine-specific repository path; add cleanup context for historical build/evidence references"
+    },
+    {
+      "path": "docs/ROBUSTNESS_RUN_GUIDE.md",
+      "reason": "explain original provenance guard and isolated rerun wrapper"
+    },
+    {
+      "path": "scripts/qa_api.py",
+      "reason": "portable dependency/dataset/server locations and create missing output directory; original test assertions preserved"
+    },
+    {
+      "path": "scripts/qa-ui.cjs",
+      "reason": "portable dependency/dataset/server locations and create missing output directory; original test assertions preserved"
+    },
+    {
+      "path": "scripts/qa-large-ui.cjs",
+      "reason": "portable dependency/dataset/server locations and create missing output directory; original test assertions preserved"
+    }
+  ],
+  "findings": [
+    {
+      "path": "docs/ADAPTABILITY_REPORT.md",
+      "line": 98
+    },
+    {
+      "path": "docs/ROBUSTNESS_EXPERIMENT.md",
+      "line": 526
+    },
+    {
+      "path": "experiments/robustness/report.py",
+      "line": 167
+    }
+  ]
+}

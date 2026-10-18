@@ -1,0 +1,13 @@
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+fastapi==0.115.12
+uvicorn==0.34.2
+shap==0.47.2
+joblib==1.4.2
+python-multipart==0.0.20
+httpx==0.28.1
+pydantic==2.14.1
+starlette==0.46.2
+pyinstaller==6.13.0

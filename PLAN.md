@@ -1,0 +1,365 @@
+# Cleanup plan (written before copying)
+
+Original files are read-only inputs. Preserve source names and test module locations. No LICENSE by user choice.
+
+Dataset: hash verified as 67c308463abab12507f0c9892549fedfc099221025cbcb3e308be170b5a6a0ad (8,742,141 bytes). Kaggle page did not expose license text; API lookup failed DNS. Redistribution is UNVERIFIED: exclude dataset and provide download/hash instructions.
+
+Missing: top-level tests/ and both requested final report names. Existing test modules remain in backend/ and experiments/robustness/.
+
+Experiment results are immutable. Existing manifest protects original deployment files, so its original run guard cannot pass after cleanup. New runs must use an isolated results directory through a wrapper; do not alter experiment/model logic.
+
+## Include (every file)
+- `backend/app.py` (11677 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/evaluate_station_transfer.py` (2452 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/import_analysis.py` (10321 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/limits.py` (159 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/noise_evaluation.py` (1411 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/test_adaptability.py` (4403 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/test_api.py` (3370 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/test_frozen_adaptability.py` (1890 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/test_large_imports.py` (2742 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/train.py` (4143 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/train_sensor_models.py` (4565 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/__init__.py` (0 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/artifacts/baseline_station_evaluation.json` (3864 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/artifacts/metadata.json` (4147 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/artifacts/pm25.json` (5027 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/artifacts/pm_pair.json` (5068 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/artifacts/sensor_evaluation.json` (11140 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/fixtures/flexible-import.csv` (166 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/fixtures/general-quality.csv` (101 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/fixtures/pagination-check.csv` (2259 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `backend/fixtures/quality-check.csv` (217 bytes): backend implementation, existing tests/fixtures, or small evaluation evidence
+- `Design/index.html` (411 bytes): frontend source/configuration or desktop source/assets
+- `Design/package-lock.json` (115221 bytes): frontend source/configuration or desktop source/assets
+- `Design/package.json` (866 bytes): frontend source/configuration or desktop source/assets
+- `Design/postcss.config.js` (97 bytes): frontend source/configuration or desktop source/assets
+- `Design/tailwind.config.js` (5268 bytes): frontend source/configuration or desktop source/assets
+- `Design/tsconfig.json` (576 bytes): frontend source/configuration or desktop source/assets
+- `Design/vite.config.ts` (378 bytes): frontend source/configuration or desktop source/assets
+- `Design/public/atmosight.svg` (409 bytes): frontend source/configuration or desktop source/assets
+- `Design/public/logo.svg` (1179 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/App.tsx` (53734 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/index.css` (16487 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/main.tsx` (240 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/vite-env.d.ts` (38 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/ImportWizard.tsx` (13027 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/classify/PollutantInput.tsx` (2765 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/classify/ResultsPanel.tsx` (10243 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/common/AnomalyBanner.tsx` (1604 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/common/ConfidenceRing.tsx` (1955 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/common/ContributionBar.tsx` (2698 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/common/StatusBadge.tsx` (2686 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/dashboard/IslamabadHeroCard.tsx` (14826 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/dashboard/QuickClassifyCard.tsx` (4932 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/dashboard/RecentActivityCard.tsx` (3618 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/dashboard/TodayTrendChart.tsx` (7113 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/history/DetailModal.tsx` (18469 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/history/HistoryTable.tsx` (18296 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/layout/Header.tsx` (5305 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/components/layout/Sidebar.tsx` (4573 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/context/HistoryContext.tsx` (7525 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/context/ThemeContext.tsx` (1129 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/pages/ClassifyPage.tsx` (12897 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/pages/DashboardPage.tsx` (6783 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/pages/HistoryPage.tsx` (4507 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/services/api.ts` (3892 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/services/engine.ts` (4247 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/services/weatherApi.ts` (12024 bytes): frontend source/configuration or desktop source/assets
+- `Design/src/types/aqi.ts` (1361 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/build.rs` (35 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/Cargo.lock` (120087 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/Cargo.toml` (322 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/tauri.conf.json` (1093 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/capabilities/default.json` (123 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/128x128.png` (2921 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/128x128@2x.png` (5636 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/32x32.png` (796 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/64x64.png` (1507 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/icon.icns` (69362 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/icon.ico` (12319 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/icon.png` (12115 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square107x107Logo.png` (2528 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square142x142Logo.png` (3183 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square150x150Logo.png` (3451 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square284x284Logo.png` (6660 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square30x30Logo.png` (833 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square310x310Logo.png` (7211 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square44x44Logo.png` (1074 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square71x71Logo.png` (1601 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/Square89x89Logo.png` (2038 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/StoreLogo.png` (1279 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml` (261 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png` (3579 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png` (3816 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png` (3131 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png` (2277 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png` (2441 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png` (1983 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png` (4700 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png` (4867 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png` (4203 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png` (7237 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png` (7593 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png` (6161 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png` (9678 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png` (10251 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png` (8202 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/android/values/ic_launcher_background.xml` (118 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-20x20@1x.png` (521 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-20x20@2x-1.png` (969 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-20x20@2x.png` (969 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-20x20@3x.png` (1419 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-29x29@1x.png` (686 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-29x29@2x-1.png` (1308 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-29x29@2x.png` (1308 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-29x29@3x.png` (1926 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-40x40@1x.png` (969 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-40x40@2x-1.png` (1834 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-40x40@2x.png` (1834 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-40x40@3x.png` (2636 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-512@2x.png` (24630 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-60x60@2x.png` (2636 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-60x60@3x.png` (3911 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-76x76@1x.png` (1758 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-76x76@2x.png` (3353 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png` (3634 bytes): frontend source/configuration or desktop source/assets
+- `Design/src-tauri/src/main.rs` (1683 bytes): frontend source/configuration or desktop source/assets
+- `diagrams/01-upload-and-compatibility.mmd` (2031 bytes): CSV pipeline documentation
+- `diagrams/01-upload-and-compatibility.svg` (6893 bytes): CSV pipeline documentation
+- `diagrams/02-row-validation-and-model-selection.mmd` (2133 bytes): CSV pipeline documentation
+- `diagrams/02-row-validation-and-model-selection.svg` (7054 bytes): CSV pipeline documentation
+- `diagrams/03-results-explanations-and-exports.mmd` (2482 bytes): CSV pipeline documentation
+- `diagrams/03-results-explanations-and-exports.svg` (7778 bytes): CSV pipeline documentation
+- `diagrams/index.html` (3368 bytes): CSV pipeline documentation
+- `diagrams/README.md` (590 bytes): CSV pipeline documentation
+- `docs/ADAPTABILITY_REPORT.md` (13246 bytes): technical report or real application screenshot
+- `docs/ROBUSTNESS_EXPERIMENT.md` (74649 bytes): technical report or real application screenshot
+- `docs/screenshots/adaptability-models.jpg` (189588 bytes): technical report or real application screenshot
+- `docs/screenshots/classify-partial.jpg` (74819 bytes): technical report or real application screenshot
+- `docs/screenshots/dashboard-light.jpg` (72525 bytes): technical report or real application screenshot
+- `docs/screenshots/large-dataset-pagination.jpg` (65202 bytes): technical report or real application screenshot
+- `docs/screenshots/model-evidence.jpg` (70326 bytes): technical report or real application screenshot
+- `docs/screenshots/settings-dark.jpg` (75683 bytes): technical report or real application screenshot
+- `experiments/robustness/.gitignore` (49 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/core.py` (6772 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/environment.json` (334 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/finish_run.py` (605 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/protocol.json` (1382 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/report.py` (29422 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/run.py` (7031 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/test_robustness.py` (4283 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/baseline_reproduction.json` (190 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/decisions.json` (2715 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/manifest.json` (2793363 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/metrics.csv` (102872 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/preservation_check.json` (96 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/prespecified_document.md` (6356 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/report_manifest.json` (372 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/summary.csv` (73011 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/tests.txt` (103 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold1_augment.json` (11211 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold1_augment_flags.json` (11339 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold1_replace.json` (11192 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold1_replace_flags.json` (11331 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold2_augment.json` (11197 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold2_augment_flags.json` (11329 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold2_replace.json` (11166 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold2_replace_flags.json` (11333 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold3_augment.json` (11205 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold3_augment_flags.json` (11315 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold3_replace.json` (11181 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold3_replace_flags.json` (11312 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold4_augment.json` (11200 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold4_augment_flags.json` (11349 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold4_replace.json` (11204 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold4_replace_flags.json` (11309 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold5_augment.json` (11206 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold5_augment_flags.json` (11321 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold5_replace.json` (11210 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/random_fold5_replace_flags.json` (11319 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold1_augment.json` (11213 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold1_augment_flags.json` (11354 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold1_replace.json` (11188 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold1_replace_flags.json` (11315 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold2_augment.json` (11184 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold2_augment_flags.json` (11345 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold2_replace.json` (11189 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold2_replace_flags.json` (11321 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold3_augment.json` (11182 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold3_augment_flags.json` (11313 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold3_replace.json` (11161 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold3_replace_flags.json` (11300 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold4_augment.json` (11184 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold4_augment_flags.json` (11342 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold4_replace.json` (11151 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold4_replace_flags.json` (11326 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold5_augment.json` (11151 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold5_augment_flags.json` (11275 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold5_replace.json` (11107 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/cv/station_fold5_replace_flags.json` (11255 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed42_augment.json` (11202 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed42_augment_flags.json` (11334 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed42_replace.json` (11202 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed42_replace_flags.json` (11335 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed43_augment.json` (11193 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed43_augment_flags.json` (11314 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed43_replace.json` (11204 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed43_replace_flags.json` (11320 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed44_augment.json` (11193 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed44_augment_flags.json` (11286 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed44_replace.json` (11205 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed44_replace_flags.json` (11280 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed45_augment.json` (11169 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed45_augment_flags.json` (11341 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed45_replace.json` (11210 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed45_replace_flags.json` (11331 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed46_augment.json` (11200 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed46_augment_flags.json` (11335 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed46_replace.json` (11199 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/random_seed46_replace_flags.json` (11342 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed42_augment.json` (11211 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed42_augment_flags.json` (11342 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed42_replace.json` (11202 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed42_replace_flags.json` (11356 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed43_augment.json` (11223 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed43_augment_flags.json` (11340 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed43_replace.json` (11184 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed43_replace_flags.json` (11343 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed44_augment.json` (11201 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed44_augment_flags.json` (11319 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed44_replace.json` (11180 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed44_replace_flags.json` (11326 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed45_augment.json` (11215 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed45_augment_flags.json` (11325 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed45_replace.json` (11204 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed45_replace_flags.json` (11346 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed46_augment.json` (11216 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed46_augment_flags.json` (11353 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed46_replace.json` (11207 bytes): research implementation, protocol and complete result evidence
+- `experiments/robustness/results/test/station_seed46_replace_flags.json` (11346 bytes): research implementation, protocol and complete result evidence
+- `scripts/build-backend.ps1` (1331 bytes): existing portable build/development helper
+- `scripts/start-dev.ps1` (697 bytes): existing portable build/development helper
+
+## Exclude (inspected source files)
+- `.gitattributes` (210 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `.gitignore` (576 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `ATMOSIGHT_COMPLETE_CHAT_HANDOFF.docx` (59244 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Atmosight_Report_With_Diagrams.docx` (1728265 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `clean_data.py` (30209 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `datacheck.py` (522 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Dataset.zip` (76469579 bytes): over 50 MB
+- `feature_names.joblib` (53 bytes): environment, trained binary, cache, log or executable
+- `package.json` (236 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `preprocessing_report.md` (9700 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `preprocessing_report.txt` (9700 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `preprocessing_script.md` (8036 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `prompt.txt` (18855 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `README.md` (8003 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `training_report.md` (0 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `training_report.txt` (0 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `training_script.md` (0 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `train_model.py` (0 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `backend/atmosight-backend.spec` (1279 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `backend/requirements-lock.txt` (745 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `backend/requirements.txt` (181 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `backend/artifacts/baseline.joblib` (117116282 bytes): over 50 MB
+- `backend/artifacts/pm25.joblib` (21059849 bytes): environment, trained binary, cache, log or executable
+- `backend/artifacts/pm_pair.joblib` (19670051 bytes): environment, trained binary, cache, log or executable
+- `Dataset/city_day.csv` (2603588 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Dataset/city_hour.csv` (65648581 bytes): over 50 MB
+- `Dataset/datacheck.py` (955 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Dataset/inspect_data.py` (1569 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Dataset/stations.csv` (14467 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Dataset/station_day.csv` (8742141 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Dataset/station_day_cleaned.csv` (9725981 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/.env.example` (98 bytes): environment, trained binary, cache, log or executable
+- `Design/html/classify_dark.html` (38266 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/html/classify_light.html` (34308 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/html/dashboard_dark.html` (35672 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/html/dashboard_light.html` (31770 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/html/history_dark.html` (47295 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/html/history_light.html` (42270 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/html/logo.svg` (1177 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/classify_dark.png` (105476 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/classify_light.png` (118757 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/dashboard_dark.png` (143451 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/dashboard_light.png` (105476 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/history_dark.png` (82278 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/history_light.png` (88657 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `Design/screenshots/logo.png` (10898 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `diagrams/build_diagrams.py` (13641 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/ATMOSIGHT_COMPLETE_CHAT_HANDOFF.docx` (59244 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/ATMOSIGHT_USER_GUIDE_AND_STATUS.md` (18892 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/AUDIT.md` (2347 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/build_chat_handoff.py` (38226 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/LARGE_DATASET_SUPPORT.md` (4320 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/LARGE_DATASET_VALIDATION.json` (349 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/ROBUSTNESS_RUN_GUIDE.md` (1927 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/VALIDATION.md` (6725 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/api-results.json` (2681 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/backend-tests.txt` (2651 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/classification.png` (152128 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/csv-results.png` (312166 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/dashboard.png` (104835 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/full-station-report.json` (144827700 bytes): over 50 MB
+- `docs/qa-2026-10-17/full-station-results.png` (110623 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/history.json` (8709 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/large-before.json` (440 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/large-ui-results.json` (335 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/model-hashes.json` (633 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/models.png` (166709 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/normalized.csv` (225 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/pagination-report.json` (23427 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/quality-report.json` (10733 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/README.md` (4801 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/template.csv` (51 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/ui-results.json` (1651 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/before/app.py` (10981 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/before/App.tsx` (52620 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/before/engine.ts` (3818 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/before/ImportWizard.tsx` (11438 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `docs/qa-2026-10-17/before/import_analysis.py` (10308 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/01-upload-and-compatibility.png` (625552 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/02-row-validation-and-model-selection.png` (655389 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/03-results-explanations-and-exports.png` (741549 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/add_diagrams.py` (5370 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/Atmosight_Report_Citation_Reviewed.docx` (24666 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/Atmosight_Report_With_Diagrams.docx` (1728265 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `report_review/build_review.py` (32877 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `scripts/build-adaptive-desktop.ps1` (719 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `scripts/qa-large-ui.cjs` (3002 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `scripts/qa-ui.cjs` (10557 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+- `scripts/qa_api.py` (3510 bytes): draft, scratch, historical report, design mockup, redundant data or unneeded auxiliary file
+
+## Excluded directory classes
+Original .git history/LFS, .backups, virtual environments, node_modules, dist, build, target*, __pycache__, generated schemas and sidecar binaries: dependencies, caches or build products. These directories are pruned during inventory.
+
+## Inspected files over 5 MB
+- `Dataset.zip`: 76469579 bytes
+- `backend/artifacts/baseline.joblib`: 117116282 bytes
+- `backend/artifacts/pm25.joblib`: 21059849 bytes
+- `backend/artifacts/pm_pair.joblib`: 19670051 bytes
+- `Dataset/city_hour.csv`: 65648581 bytes
+- `Dataset/station_day.csv`: 8742141 bytes
+- `Dataset/station_day_cleaned.csv`: 9725981 bytes
+- `docs/qa-2026-10-17/full-station-report.json`: 144827700 bytes
+
+## Potential secrets and absolute paths (review before copy)
+- `docs/ADAPTABILITY_REPORT.md:98`: `<repository-root>\Design\src-tauri\target-adaptive\release\atmosight.exe`
+- `docs/ROBUSTNESS_EXPERIMENT.md:526`: Commands run from `<repository-root>`:
+- `experiments/robustness/report.py:167`:         'Commands run from `<repository-root>`:\n\n```powershell\nbackend/.venv/Scripts/python.exe -m unittest experiments.robustness.test_robustness backend.test_api backend.test_adaptability backend.test_large_imports -q\nbackend/.venv/Scripts/python.exe -m experiments.robustness.run --phase cv\nbackend/.venv/Scripts/python.exe -m experiments.robustness.run --phase test\nbac
+
+## Questions / decisions
+No LICENSE requested. Dataset excluded until redistribution can be verified. All model binaries excluded. No source renames. Full 160-forest experiment rerun may be lengthy; command execution and completion will be reported separately.
+
+## Dataset decision update before copying
+Kaggle public API metadata retrieved successfully with network access: rohanrao/air-quality-data-in-india, version 12, licenseName CC0: Public Domain. Include Dataset/station_day.csv (8,742,141 bytes), exact verified SHA-256; include source/license attribution. Prior unresolved license note is superseded.
+
+## Additional documentation dependency inspection (before copying)
+- `scripts/build-adaptive-desktop.ps1`: retained because included documentation directly references this reproducibility/build helper.
+- `diagrams/build_diagrams.py`: retained because included documentation directly references this reproducibility/build helper.
+- `docs/ROBUSTNESS_RUN_GUIDE.md`: retained because included documentation directly references this reproducibility/build helper.
+
+## Additional automated QA tools (before copying)
+Retain scripts/qa_api.py, scripts/qa-ui.cjs and scripts/qa-large-ui.cjs as existing automated tests, rather than discard them with QA scratch outputs. Both browser scripts contain a personal absolute Playwright require path; replace it with package resolution. Add configurable external dataset location, output directory creation and isolated test URL; do not copy extra datasets or historic QA outputs.
