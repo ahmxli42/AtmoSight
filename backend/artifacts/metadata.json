@@ -1,0 +1,182 @@
+{
+  "name": "Six-pollutant Random Forest",
+  "features": [
+    "PM2.5",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3"
+  ],
+  "categories": [
+    "Good",
+    "Satisfactory",
+    "Moderate",
+    "Poor",
+    "Very Poor",
+    "Severe"
+  ],
+  "observations": 87025,
+  "train_rows": 69620,
+  "test_rows": 17405,
+  "accuracy": 0.7811548405630566,
+  "macro_f1": 0.764960569573612,
+  "classification_report": {
+    "Good": {
+      "precision": 0.7346553352219075,
+      "recall": 0.705989110707804,
+      "f1-score": 0.7200370198981952,
+      "support": 1102.0
+    },
+    "Moderate": {
+      "precision": 0.8095318573601488,
+      "recall": 0.8142104368519463,
+      "f1-score": 0.811864406779661,
+      "support": 5883.0
+    },
+    "Poor": {
+      "precision": 0.676194939081537,
+      "recall": 0.6276642018268812,
+      "f1-score": 0.6510263929618768,
+      "support": 2299.0
+    },
+    "Satisfactory": {
+      "precision": 0.7913043478260869,
+      "recall": 0.8277977575629363,
+      "f1-score": 0.8091397849462365,
+      "support": 4727.0
+    },
+    "Severe": {
+      "precision": 0.8522012578616353,
+      "recall": 0.7802303262955854,
+      "f1-score": 0.814629258517034,
+      "support": 1042.0
+    },
+    "Very Poor": {
+      "precision": 0.7758764607679466,
+      "recall": 0.7903911564625851,
+      "f1-score": 0.7830665543386689,
+      "support": 2352.0
+    },
+    "accuracy": 0.7811548405630566,
+    "macro avg": {
+      "precision": 0.773294033019877,
+      "recall": 0.7577138316179562,
+      "f1-score": 0.764960569573612,
+      "support": 17405.0
+    },
+    "weighted avg": {
+      "precision": 0.7802349359267279,
+      "recall": 0.7811548405630566,
+      "f1-score": 0.7803394866447614,
+      "support": 17405.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      778,
+      317,
+      5,
+      0,
+      1,
+      1
+    ],
+    [
+      233,
+      3913,
+      574,
+      3,
+      4,
+      0
+    ],
+    [
+      32,
+      689,
+      4790,
+      344,
+      23,
+      5
+    ],
+    [
+      8,
+      24,
+      516,
+      1443,
+      302,
+      6
+    ],
+    [
+      5,
+      1,
+      27,
+      331,
+      1859,
+      129
+    ],
+    [
+      3,
+      1,
+      5,
+      13,
+      207,
+      813
+    ]
+  ],
+  "imputation": {
+    "PM2.5": 56.1,
+    "PM10": 122.43,
+    "SO2": 9.08,
+    "NO2": 27.2,
+    "CO": 0.96,
+    "O3": 30.955
+  },
+  "estimators": 200,
+  "seed": 42,
+  "calibrated": false,
+  "source": "Kaggle Air Quality Data in India 2015\u20132020 / station_day.csv",
+  "evaluation": "New local reproduction: stratified random 80/20 split. Training-only global median imputation. Not the historical 77.31% baseline.",
+  "limitations": [
+    "Random split is not a held-out station or temporal validation.",
+    "Missing-input robustness and probability calibration have not been validated.",
+    "Isolation Forest flags statistical rarity, not sensor failure.",
+    "Only the six-pollutant model is available. No temporal or PM-only model."
+  ],
+  "robustness": [
+    {
+      "missing_fraction": 0.1,
+      "accuracy": 0.7457627118644068,
+      "macro_f1": 0.724109490138949
+    },
+    {
+      "missing_fraction": 0.3,
+      "accuracy": 0.657454754380925,
+      "macro_f1": 0.6215477031497172
+    },
+    {
+      "missing_fraction": 0.5,
+      "accuracy": 0.5686871588623958,
+      "macro_f1": 0.5197003693023406
+    }
+  ],
+  "noise_stress": [
+    {
+      "relative_std": 0.1,
+      "accuracy": 0.7515081873024992,
+      "macro_f1": 0.736523130468211
+    },
+    {
+      "relative_std": 0.3,
+      "accuracy": 0.6307382935937949,
+      "macro_f1": 0.6066956491750549
+    },
+    {
+      "relative_std": 0.5,
+      "accuracy": 0.5448434357943119,
+      "macro_f1": 0.510246627940542
+    }
+  ],
+  "scikit_learn_version": "1.6.1",
+  "dataset_sha256": "67c308463abab12507f0c9892549fedfc099221025cbcb3e308be170b5a6a0ad",
+  "artifact_sha256": "5cab1847853ab691a27133a049092c1149a70fe5dd52ccec79c954c9a188fbbb",
+  "evaluated_at_utc": "2026-10-12T18:07:27.769256+00:00"
+}
