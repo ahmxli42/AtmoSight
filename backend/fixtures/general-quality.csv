@@ -1,0 +1,5 @@
+temperature,humidity,Date,StationId
+-5,60,2026-10-01,A
+-5,60,2026-10-01,A
+,70,2026-10-03,A
+12,,bad,B
