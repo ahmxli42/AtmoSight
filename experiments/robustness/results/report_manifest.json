@@ -1,0 +1,9 @@
+{
+  "generated_utc": "2026-10-16T12:44:58.492085+00:00",
+  "report_code_sha256": "d1ececabc927209b16a2d991ffc2e6e8ac7b4bedc6e54786af4cfc827f17ee43",
+  "test_code_sha256": "287c4e390309f000874010a4c5e742c1a3425670462ffe9a43e363e8b2c355b1",
+  "cv_pairs": 40,
+  "test_pairs": 40,
+  "paired_hashes_across_variants_verified": true,
+  "protected_files_unchanged": true
+}

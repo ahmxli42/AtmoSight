@@ -1,0 +1,8 @@
+{
+  "observed_during_run": "2026-10-16",
+  "cpu": "11th Gen Intel Core i5-1145G7 @ 2.60GHz",
+  "physical_cores": 4,
+  "logical_processors": 8,
+  "visible_memory_kib": 24838364,
+  "note": "Hardware queried using Win32_Processor and Win32_OperatingSystem. Other applications were running; wall timings are not an isolated benchmark."
+}

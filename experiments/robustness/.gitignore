@@ -1,0 +1,6 @@
+*.joblib
+*.pkl
+*.pickle
+*.npz
+__pycache__/
+*.log

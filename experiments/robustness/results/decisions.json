@@ -1,0 +1,90 @@
+[
+  {
+    "protocol": "random",
+    "variant": "replace",
+    "severe_macro_f1_delta": -0.0206273036697741,
+    "severe_delta_sd": 0.004579418845904079,
+    "clean_accuracy_delta": -0.005825912094225827,
+    "severe_b_wins": 0,
+    "benefit_exceeds_sd": false,
+    "clean_loss_within_one_point": true,
+    "helps": false
+  },
+  {
+    "protocol": "random",
+    "variant": "replace_flags",
+    "severe_macro_f1_delta": -0.0020245284022346044,
+    "severe_delta_sd": 0.009433330410696427,
+    "clean_accuracy_delta": -0.004987072680264326,
+    "severe_b_wins": 3,
+    "benefit_exceeds_sd": false,
+    "clean_loss_within_one_point": true,
+    "helps": false
+  },
+  {
+    "protocol": "random",
+    "variant": "augment",
+    "severe_macro_f1_delta": -0.015834208420632156,
+    "severe_delta_sd": 0.004052221810409376,
+    "clean_accuracy_delta": -0.0019994254524561715,
+    "severe_b_wins": 0,
+    "benefit_exceeds_sd": false,
+    "clean_loss_within_one_point": true,
+    "helps": false
+  },
+  {
+    "protocol": "random",
+    "variant": "augment_flags",
+    "severe_macro_f1_delta": 0.003958958261562817,
+    "severe_delta_sd": 0.004289151881612037,
+    "clean_accuracy_delta": -0.0019189887963228847,
+    "severe_b_wins": 4,
+    "benefit_exceeds_sd": false,
+    "clean_loss_within_one_point": true,
+    "helps": false
+  },
+  {
+    "protocol": "station",
+    "variant": "replace",
+    "severe_macro_f1_delta": 0.004222640806555577,
+    "severe_delta_sd": 0.007346273046463645,
+    "clean_accuracy_delta": -0.009017692104568265,
+    "severe_b_wins": 4,
+    "benefit_exceeds_sd": false,
+    "clean_loss_within_one_point": true,
+    "helps": false
+  },
+  {
+    "protocol": "station",
+    "variant": "replace_flags",
+    "severe_macro_f1_delta": 0.012401185849362307,
+    "severe_delta_sd": 0.008220936984755773,
+    "clean_accuracy_delta": -0.009796672828096108,
+    "severe_b_wins": 5,
+    "benefit_exceeds_sd": true,
+    "clean_loss_within_one_point": true,
+    "helps": true
+  },
+  {
+    "protocol": "station",
+    "variant": "augment",
+    "severe_macro_f1_delta": 0.008249153665990471,
+    "severe_delta_sd": 0.00344667306579125,
+    "clean_accuracy_delta": -0.008291523633483,
+    "severe_b_wins": 5,
+    "benefit_exceeds_sd": true,
+    "clean_loss_within_one_point": true,
+    "helps": true
+  },
+  {
+    "protocol": "station",
+    "variant": "augment_flags",
+    "severe_macro_f1_delta": 0.005993846890108845,
+    "severe_delta_sd": 0.006080812405326065,
+    "clean_accuracy_delta": -0.007789807235278579,
+    "severe_b_wins": 4,
+    "benefit_exceeds_sd": false,
+    "clean_loss_within_one_point": true,
+    "helps": false
+  }
+]

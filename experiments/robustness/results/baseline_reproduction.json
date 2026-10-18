@@ -1,0 +1,7 @@
+{
+  "old_accuracy": 0.7811548405630566,
+  "new_accuracy": 0.7811548405630566,
+  "old_macro_f1": 0.764960569573612,
+  "new_macro_f1": 0.764960569573612,
+  "match_to_12_decimals": true
+}

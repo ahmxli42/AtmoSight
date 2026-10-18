@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "split_seed": 42,
+  "test_seeds": [42, 43, 44, 45, 46],
+  "cv_folds": 5,
+  "cv_seed": 42,
+  "moderate": {"sigma": 0.1, "mask_probability": 0.15, "gas_absence_fraction": 0.2},
+  "severe": {"sigma": 0.3, "mask_probability": 0.4, "gas_absence_fraction": 0.5},
+  "variants": ["replace", "replace_flags", "augment", "augment_flags"],
+  "model": {"n_estimators": 200, "class_weight": "balanced", "max_depth": null, "min_samples_leaf": 1},
+  "all_missing_policy": "User approved retaining naturally all-missing rows as an exception. Every other degraded row retains at least one originally observed pollutant.",
+  "augment_control": "User approved three unchanged clean copies for A versus clean, moderate and severe copies for B; equal total training rows.",
+  "decision_rule": "For EACH variant and protocol: helps iff mean severe macro-F1 difference B-A > sample SD of that paired difference AND mean clean accuracy difference B-A >= -0.01. No overall best-variant claim. CV fold summaries are descriptive, not seed SDs.",
+  "test_policy": "Complete fixed CV before final held-out evaluation. No tuning or variant selection from held-out results.",
+  "optional_extensions": "Neither compact sensitivity nor specialist comparison is part of the primary run. A descriptive subgroup diagnostic of repair-affected severe rows is prespecified."
+}
