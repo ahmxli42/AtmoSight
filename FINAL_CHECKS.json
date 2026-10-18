@@ -1,0 +1,25 @@
+{
+  "physical_files_over_50_MB": [],
+  "generated_or_forbidden_source_files": [],
+  "original_inventory_hashes_checked": 320,
+  "original_changes": [],
+  "copied_files_modified": [
+    "docs/ADAPTABILITY_REPORT.md",
+    "docs/ROBUSTNESS_EXPERIMENT.md",
+    "docs/ROBUSTNESS_RUN_GUIDE.md",
+    "experiments/robustness/report.py",
+    "scripts/qa-large-ui.cjs",
+    "scripts/qa-ui.cjs",
+    "scripts/qa_api.py"
+  ],
+  "archived_experiment_files_unchanged": 89,
+  "python_source_syntax": "PASS",
+  "README_and_verification_local_links": "PASS",
+  "source_scan": {
+    "source_files": 259,
+    "bytes": 14469368,
+    "findings": []
+  },
+  "remote_configuration": "none",
+  "notes": "Git final status and object counts are also printed live after the final documentation commit. Source scanner count is a snapshot before this JSON content is updated."
+}
